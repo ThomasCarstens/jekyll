@@ -8,7 +8,7 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+For my work landing page check out [Senckenberg BiK-F](http://www.bik-f.de/root/index.php?page_id=737)
 
 ### Contact me
 
