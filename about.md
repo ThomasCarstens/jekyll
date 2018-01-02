@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+![Homburg](/images/homburg.png „Fortress“)
 
 ### More Information
 
@@ -12,4 +12,5 @@ For my work landing page check out [Senckenberg BiK-F](http://www.bik-f.de/root/
 
 ### Contact me
 
+Coming soon...
 [email@domain.com](mailto:email@domain.com)
