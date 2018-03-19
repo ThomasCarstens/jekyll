@@ -27,7 +27,7 @@ teaser                   : #"/assests/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -102,7 +102,7 @@ author:
   avatar           : "/assets/images/christian-werner.jpg"
   bio              : "Scientist and Pythonista."
   location         : "Frankfurt, DE"
-  email            :
+  email            : "contact@christianwerner.net"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
