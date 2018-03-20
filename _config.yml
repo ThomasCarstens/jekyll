@@ -38,22 +38,8 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-#staticman:
-#  allowedFields          : ['name', 'email', 'url', 'message']
-#  branch                 : "master"
-#  commitMessage          : "New comment."
-#  filename               : comment-{@timestamp}
-#  format                 : "yml"
-#  moderation             : false
-#  path                   : # "/_data/comments/{options.slug}" (default)
-#  requiredFields         : ['name', 'email', 'message']
-#  transforms:
-#    email                : "md5"
-#  generatedFields:
-#    date:
-#      type               : "date"
-#      options:
-#        format           : "iso8601" #(default), "timestamp-seconds", "timestamp-milliseconds"
+staticman:
+  branch                 : "master"
 reCaptcha:
   siteKey                : "6LeHn00UAAAAAG5ZT-Y02Z6Jbr9baDwKZBYeHW68"
   secret                 : "NFPRHqCbjEtx7wdcRuz5xo+sxxPLpfwzSj3zCOaeWlWneYQi8DHn9C7FJetIbhYR0SikqPOTBRFD/p88MOfdxFTjjYa+gYYxyx311b0PwKmzYh4ZtWrKJwFgtMNSFMNAnd7JBm3efmXbxdvxgnTIJmFzJJCKfWMjq3WEjx60cuk="
