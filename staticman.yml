@@ -8,7 +8,7 @@ comments:
   path              : "_data/comments/{options.slug}"
   requiredFields    : ['name', 'email', 'message']
   transforms:
-    email           : md5
+    email           : "md5"
   generatedFields:
     date:
       type          : "date"
