@@ -10,9 +10,9 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-#github: [metadata]
+github: [metadata]
 #theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" #default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -45,9 +45,9 @@ reCaptcha:
   secret                 : "NFPRHqCbjEtx7wdcRuz5xo+sxxPLpfwzSj3zCOaeWlWneYQi8DHn9C7FJetIbhYR0SikqPOTBRFD/p88MOfdxFTjjYa+gYYxyx311b0PwKmzYh4ZtWrKJwFgtMNSFMNAnd7JBm3efmXbxdvxgnTIJmFzJJCKfWMjq3WEjx60cuk="
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : "lunr" # lunr (default), algolia
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
