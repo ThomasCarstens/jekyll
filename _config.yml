@@ -19,8 +19,8 @@ minimal_mistakes_skin    : "dirt" #default" # "air", "aqua", "contrast", "dark",
 locale                   : "en-US"
 title                    : "Christian Werner (.net)"
 title_separator          : "-"
-name                     : "Christian Werner"
-description              : "Data, Science and Stuff..."
+name                     : &name "Christian Werner"
+description              : &description "Data, Science and Stuff..."
 url                      : https://www.christianwerner.net # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "cwerner/chrwerner.github.io"
@@ -37,7 +37,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   branch                 : "master"
 reCaptcha:
