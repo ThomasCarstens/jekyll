@@ -1,6 +1,6 @@
 ---
 title: "Is this a Les Paul or is this a Strat?"
-excerpt: "... using convolutional neural nets to figure out guitars"
+excerpt: "... using convolutional neural nets to classify guitars"
 header:
   overlay_image: /assets/images/guitars.jpg 
 categories:
@@ -8,7 +8,9 @@ categories:
 tags:
   - cnn
   - fastai
+  - python
   - guitar
+  - deep learning
 toc: true
 toc_sticky: true
 date: 2018-06-16T10:20:00Z
@@ -241,7 +243,7 @@ In my setup this final model now achieves an accuracy of 95.4%. Given the divers
 
 First, let's look at the confusion matrix. This illustrates the accuracy of the model for the
 individual classes (the diagonal is the correct prediction for all classes). In total there 
-were 102 Strats and 94 Les Paul images in the validation dataset (the split was 80/20 of the
+were 102 Strat and 94 Les Paul images in the validation dataset (the split was 80/20 of the
  total images).
 
 {%
@@ -265,14 +267,14 @@ caption="Best classification results and results where the model is most uncerta
 ### Next steps
 
 Now, while the results are not as great as the dog vs. cat classifier in the fast.ai lesson that consisted
- of a much larger dataset, I still think results are quite neat. I currently think about the following
+ of a much larger dataset, I still believe results are quite neat. I currently think about the following
  steps for further experiments:
 
 1. Get more images: the number of images is still small (400 training, 100 validation images per class)
 1. Try the same exercise with the full resolution images (I have the feeling that the thumbnails are too 
 small for the network and sz setting
 1. Further selection of images that are a) too small, b) have multiple guitars in the image, show too little
- of the guitar (some only head the fingerboard or the headstock), c) remove images with backside shots.
+ of the guitar (some only had the fingerboard or the headstock), c) remove images with backside shots.
 1. I also want to extend this to mulit-class classification: Gibson Les Paul, SG, Firebird, Explorer and Fender
  Stratocaster, Jaguar, Mustang and Telecaster. This should be interesting!
 
