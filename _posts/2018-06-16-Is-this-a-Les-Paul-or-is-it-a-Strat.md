@@ -4,7 +4,7 @@ excerpt: "... using convolutional neural nets to classify guitars"
 header:
   overlay_image: /assets/images/guitars.jpg 
 categories:
-  - tech
+  - Tech
 tags:
   - cnn
   - fastai
@@ -16,7 +16,6 @@ toc_sticky: true
 date: 2018-06-16T10:20:00Z
 ---
 
-
 I recently stumbled upon the most excellent podcast *"This week in Machine Learning and Artificial Intelligence"* ([TWiML&AI](https://twimlai.com)). [Sam Charrington](https://twitter.com/samcharrington) is doing a wonderful job in presenting people and trending topics of all things AI and ML. Go check it out. It's quality stuff!  
 
 ## Intro
@@ -27,19 +26,19 @@ Anyways. A recent guest on his show was Rachel Thomas [(Episode #138)](https://s
 
 So, in essence they teach state-of-the-art deep learning (DL) for the common (wo)man by providing [free MOOG courses](http://course.fast.ai) on their site. What's quite unique about it is that they decided to use a top-down approach. They basically provide almost no introduction to the basis of the field but have the students train their first deep convolutional neural network with just three lines of code and go from there... Later, they peel layer for layer and expose more and more details about the underlying fundamentals that make the machinery work. The idea is that this supposedly keeps students engaged and helps to facilitate different learning paces and styles. To make all this happen they designed a high-level wrapper that sits on top of the deep learning framework [PyTorch](https://pytorch.org) - apparently in a similar way as [Keras](https://keras.io) provides a more gentle interface to [TensorFlow](https://github.com/tensorflow/tensorflow). As far as I understood, it was originally designed as a help for their courses but matured into a rather stable general-purpose DL library that might also be used for production...  
 
-Given that I currently teach an introductory course to *R for remote sensing of global ecology* that is based on the conventional bottom-up approach (teach the students the basics of R first before writing remote sensing data analysis scripts) I was a bit sceptical at first when I heard about this... 
+Given that I currently teach a university course (*Remote Sensing of Global Ecology (using R)*) that is structured on the conventional bottom-up approach I was a intrigued about this style of teaching.
 
 ### Joining the group
 
-Sam initiated a [study group](https://twimlai.com/twiml-x-fast-ai/) shortly after the interview with Rachel. I thought I'd also check this out and so I joined to keep me motivated and here we are.
+Sam initiated a [study group](https://twimlai.com/twiml-x-fast-ai/) shortly after the fast.ai interview. I thought I'd also check this out and so I joined to keep me motivated and here we are.
 
-Now, in the first lesson students build the (unavoidable?) cat classifier (here it's a cat vs. dog classifier). The whole model requires only three lines of Python code! Obviously this only works since a lot of hyper-parameters are hidden by the basic interface and a lot of choices are done by the fastai package by default. Furthermore, the example uses [transfer learning](http://cs231n.github.io/transfer-learning/) and thus really piggybacks on a large existing model that was trained on the massive [ImageNet dataset](http://www.image-net.org). Nevertheless it really is quite amazing that you can get things from the ground with this little code.
+Now, in the first lesson students build the (unavoidable?) cat classifier (here it's a cat vs. dog classifier). The whole model requires only three lines of Python code! Obviously this only works since a lot of hyper-parameters are hidden by the basic interface and a lot of choices are done by the fast.ai package by default and data is provided. Furthermore, the example uses [transfer learning](http://cs231n.github.io/transfer-learning/) and thus really piggybacks on a large existing model that was trained on the massive [ImageNet dataset](http://www.image-net.org). Nevertheless it really is quite amazing that you can get things from the ground with this little code.
 
 ## The project
 
-As an exercise students are asked to come up with their own (binary) classifiers and so I thought I build a guitar classifier net. To start things off I decided to go for arguably two of the most iconic electrical guitars: the [Gibson (R.I.P) Les Paul](https://en.wikipedia.org/wiki/Gibson_Les_Paul) and the [Fender Stratocaster](https://en.wikipedia.org/wiki/Fender_Stratocaster).
+As an exercise students are asked to come up with their own (binary) classification problems and so I thought I'd build a guitar classifier net. To start things off I decided to go for arguably two of the most iconic electrical guitars: the [Gibson (R.I.P) Les Paul](https://en.wikipedia.org/wiki/Gibson_Les_Paul) and the [Fender Stratocaster](https://en.wikipedia.org/wiki/Fender_Stratocaster).
 
-Now, a couple of things up first. While the two instruments feature some quite different body shapes, headstocks and geometries guitars tend to come in all kinds of designs and configurations and thus I imagine that this task is at least as challenging as differentiating between a fluffy cat and a (less so?) dog - if not much more.
+Now, a couple of things up first. While the two instruments feature very characteristic body shapes, headstocks and geometries guitars tend to come in all kinds of designs and configurations. So I'd imagine that this task is at least as challenging as differentiating between a fluffy cat and a (less so?) dog - if not much more.
 
 {%
 include figure 
@@ -51,7 +50,7 @@ caption="Well, obviously!"
 
 ### Connecting to notebook server
 
-Since I work on Macs (and none features a decent Nvidia GPU) I ssh into a GPU equipped server that runs the [jupyter notebook](http://jupyter.org) server with GPU acceleration (it also features an anaconda installation and has the fast.ai and other required python libraries installed, I'm not discussing the setup here).
+Since I work on Macs (and none features a decent Nvidia GPU) I ssh into a GPU-equipped server that runs the [jupyter notebook](http://jupyter.org) with GPU acceleration (it also features an anaconda installation and has the fast.ai and other required python libraries installed, I'm not discussing the setup here).
 
 ```bash
 # activate the anaconda environment
@@ -72,7 +71,7 @@ Now I simply access the notebook via my browser at https://localhost:8888 (I als
 
 ### Data setup
 
-"First, there was data..." Well, there needs to be anyways. So one convenient way of getting hold of image data is to use [Google Image Search](https://images.google.com). There is a neat Chrome extension for image harvesting () - but I do not like using Chrome on my Macs since it always makes my system grind to a hold after some time so I used another python library called [google_images_download](https://github.com/hardikvasa/google-images-download).
+"First, there was data..." Well, there needs to be anyways. So one convenient way of getting hold of image data is to use [Google Image Search](https://images.google.com). There is a neat [Chrome extension](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en) for image harvesting - but I find that Chrome still plain sucks on a Mac so I went for another python library called [google_images_download](https://github.com/hardikvasa/google-images-download) that does the same job.
 
 ```bash
 # install google image downloader and pull images
@@ -84,9 +83,9 @@ googleimagesdownload -k "gibson les paul" -pr "gibson_lp" -th -o gibson_lp -l 10
 googleimagesdownload -k "fender stratocaster" -pr "fender_strat" -th -o fender_strat -l 1000 --chromedriver /usr/local/bin/chromedriver
 ```
 
-For some reason the script only managed to pull ~500 images (which should still be enough for the exercise), but to get a better dataset I found that I had to manually weed through the files and delete files with missing suffixes, wrong classification, or only showing guitar parts. A neat way to do this on the Mac is simply to use the quick view in Finder and scroll through the directory and delete as necessary. I also only used the thumbnail images as the scripts only uses 224x224px images anyways.
+For some reason the script only managed to pull ~500 images (which should still be enough for the exercise), but to get a better dataset I found that I had to manually weed through the files and delete files with missing suffixes, wrong classification, or only showing guitar parts. A neat way to do this on the Mac is simply to use the quick view in Finder and scroll through the directory and delete as necessary. I also only used the thumbnail images as the scripts currently only uses 224x224px images anyways.
 
-Finally, I wrote some quick lines of code that created a file structure suitable for the fast.ai 
+Finally, I wrote some quick lines of code that created a file structure suitable for the fast.ai *ImageClassifierData* object.
 
 ```python
 import glob
@@ -164,8 +163,7 @@ alt="First model run"
 caption="The output of the first model training using our Les Paul vs. Strat dataset"
 %}
 
-
-This already gives us an accuracy of 92.857%. Pretty remarkable. Now, lets see what the model
+This already gives us an accuracy of 92.9%. Pretty remarkable. Now, lets see what the model
  identifies correctly and where it fails (I'm using some helper functions from the course for this which
  I do not show in this post to save space, see the GitHub repository for the full code listing; 
 0 = Fender Strat, 1 = Gibson Les Paul).
@@ -213,9 +211,9 @@ learn.fit(1e-2, 3, cycle_len=1)
 We now have a model where the last layer was trained while all previous layers are still
  frozen to the original ImageNet weights. To give the model some wiggle room to fine-tune 
 the network to our classification domain we can unfreeze the early layers, too, and provide
-a seperate learning rate to early, central and late layers in the model (the idea is to have
+a separate learning rate to early, central and late layers in the model (the idea is to have
 small learning rates for the early layers as they should be rather generic and larger learning
-rates for the late layers as they characterize more specific concepts).
+rates for the late layers as they characterise more specific concepts).
 
 ```python
 learn.unfreeze()
@@ -225,9 +223,9 @@ lr = np.array([1e-4, 1e-3, 1e-2])
 learn.fit(lr, 3, cycle_len=1, cycle_mult=2)
 ```
 
-Test Time Augmentation (TTA) was something I never heard about but apparently it can further
+**Test Time Augmentation (TTA)** was something I never heard about but apparently it can further
 improve results quite a bit. TTA computes 4 augmented test images and judges the quality at test
-time based on the majority vote on all five images which helps the model to generealize better.
+time based on the majority vote on all five images which helps the model to generalise better.
 
 ```python
 log_preds,y = learn.TTA()
@@ -236,7 +234,7 @@ accuracy_np(probs, y)
 ```
 
 In my setup this final model now achieves an accuracy of 95.4%. Given the diverse input data and
- relativly small sample set I find that quite amazing.
+ relatively small sample set I find that quite amazing.
 
 
 ### Some evaluation
@@ -272,7 +270,7 @@ Now, while the results are not as great as the dog vs. cat classifier in the fas
 
 1. Get more images: the number of images is still small (400 training, 100 validation images per class)
 1. Try the same exercise with the full resolution images (I have the feeling that the thumbnails are too 
-small for the network and sz setting
+small for the network and *sz* setting
 1. Further selection of images that are a) too small, b) have multiple guitars in the image, show too little
  of the guitar (some only had the fingerboard or the headstock), c) remove images with backside shots.
 1. I also want to extend this to mulit-class classification: Gibson Les Paul, SG, Firebird, Explorer and Fender
