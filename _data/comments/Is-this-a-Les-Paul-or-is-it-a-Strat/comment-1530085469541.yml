@@ -1,5 +1,5 @@
 _id: ec2ebf20-79dd-11e8-94c5-034e53622255
-message: "Hi Shiram\r\n\r\nWith this setup everything lives on the remote machine. The local machine only shows the notebook. So currently I simply scp my files onto the remote... But I also have a neat little script to get new images from Google, Baidu and Bing, clean them up and rename them... This script could also run on the server. I will write a short bit about that in the next days... Just a bit busy this week... I also haven't put the code on github yet. Will be also up next week (hopefully)"
+message: "Hi Shiram\r\n\r\nWith this setup everything lives on the remote machine - the local machine only shows the notebook. So currently I simply *scp* my files onto the remote... But I also have a neat little script to get new images from Google, Baidu and Bing, clean them up and rename them (quite a bit better than the code in this post and return many more images). The scripts can run on the server, however you probably want to clean them up. I also wrote a super simple tool for that... I will write a short article about that in the next days... Just a bit busy this week (I also haven't put the code on github yet, sorry for that)."
 name: Christian
 email: 2ed6b77fd1222f134f108262634ec636
 url: ''
