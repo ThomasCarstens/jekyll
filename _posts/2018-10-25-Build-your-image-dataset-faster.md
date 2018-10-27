@@ -11,10 +11,10 @@ tags:
   - deep learning
 toc: false
 toc_sticky: true
-date: 2018-10-27
+date: 2018-10-25
 ---
 
-If there is one thing in doing [deep learning](https://en.wikipedia.org/wiki/Deep_learning) that is cumbersome - apart from fiddling around with hyper parameters - it is to actually *get* the data to train on in the first place. You can download some excellent training datasets from [Kaggle](https://www.kaggle.com/datasets), but if you want to solve your own tasks you'll have to build your very own image dataset. 
+If there is one thing cumbersome in doing [deep learning](https://en.wikipedia.org/wiki/Deep_learning) - apart from fiddling around with hyper parameters - it is to actually *get* the data to train on in the first place. You can download some excellent training datasets from [Kaggle](https://www.kaggle.com/datasets), but if you want to solve your own tasks you'll have to build your very own image dataset. 
 
 {%
 include figure 
@@ -23,10 +23,9 @@ alt="xkcd: Is It Worth the Time?"
 caption="xkcd: Is It Worth the Time?"
 %}{: .align-right .width-half}
 
-Luckily [transfer learning](http://cs231n.github.io/transfer-learning/) drastically reduces the required number of images for most classification problems, but you still have to come up with 100-1000 of images and (depending on the accuracy you're after and the number of classes you require) this can be challenging.  
+Luckily [transfer learning](http://cs231n.github.io/transfer-learning/) drastically reduces the required number of images for most classification problems, but you still have to come up with 100s to 1000s of images and (depending on the accuracy you're after and the number of classes you require) this can be challenging.  
 
 Recently I struggled with this problem myself and after consulting the xkcd time vs. effort chart I created the python package [fastclass](https://github.com/cwerner/fastclass) to make the process less painful. 
-
 
 ## FastClass
 
