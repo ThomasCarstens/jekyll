@@ -277,5 +277,3 @@ small for the network and *sz* setting
 1. I also want to extend this to mulit-class classification: Gibson Les Paul, SG, Firebird, Explorer and Fender
  Stratocaster, Jaguar, Mustang and Telecaster. This should be interesting!
 
-**Final note: I will update the results in the coming days and also add the GitHub link for the full code** 
-
