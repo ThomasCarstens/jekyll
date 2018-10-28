@@ -5,7 +5,7 @@ header:
   teaser: assets/images/guitars.jpg
   overlay_image: /assets/images/guitars.jpg 
 categories:
-  - Tech
+  - tech
 tags:
   - cnn
   - fastai

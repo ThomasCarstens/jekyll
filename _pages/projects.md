@@ -1,6 +1,6 @@
 ---
 permalink: /projects/
-title: "Projects"
+title: "projects"
 excerpt: "My current projects."
 header:
   overlay_image: /assets/images/default.jpg

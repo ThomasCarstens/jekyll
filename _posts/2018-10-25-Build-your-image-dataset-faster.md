@@ -5,7 +5,7 @@ header:
   teaser: assets/images/art.jpg
   overlay_image: /assets/images/art.jpg 
 categories:
-  - Tech
+  - tech
 tags:
   - cnn
   - python

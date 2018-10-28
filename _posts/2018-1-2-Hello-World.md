@@ -5,11 +5,8 @@ header:
   caption: "Digging dirt"
   cta_url: #"https://unsplash.com"
 categories:
-  - tech
+  - misc
 tags:
-  - edge case
-  - image
-  - layout
 last_modified_at: 2016-11-03T11:45:09-04:00
 ---
 
