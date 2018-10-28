@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "dirt" #default" # "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Christian Werner (.net)"
+title                    : "Christian Werner"
 title_separator          : "-"
 name                     : &name "Christian Werner"
 description              : &description "Data, Science and Stuff..."

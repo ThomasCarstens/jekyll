@@ -2,6 +2,7 @@
 title: "Build your image dataset faster"
 excerpt: "Some small tools to make generating custom image datasets for building image classifiers less painful"
 header:
+  teaser: assets/images/art.jpg
   overlay_image: /assets/images/art.jpg 
 categories:
   - Tech
@@ -82,6 +83,6 @@ alt="FastClass clean"
 caption="FastClass clean"
 %}{: .align-right .width-half}
 
-This will quickly launch a GUI with the first image. Use the arrow keys to navigate. To rate the file or choose a class by pressing the keys <1> to <9>. With <d> you can mark it for deletion and with <x> you terminate the script. Afterwards you will find a copy of the files that were not marked for exclusion and a report file with your ratings.
+This will quickly launch a GUI with the first image. Use the arrow keys to navigate. To rate the file or choose a class by pressing the keys [1] to [9]. With [d] you can mark it for deletion and with [x] you terminate the script. Afterwards you will find a copy of the files that were not marked for exclusion and a report file with your ratings.
 
 In future updates I want to improve the interface and possibly store the image information in a database to reduce clutter. I hope it is useful to you and in case of any issues please create an issue at [https://github.com/cwerner/fastclass/issues](https://github.com/cwerner/fastclass/issues) or sent me a pull request.
