@@ -10,6 +10,8 @@ main:
     url: /categories/
   - title: "topics"
     url: /tags/
+  - title: "cv"
+    url: /cv/  
   - title: "sitemap"
     url: /sitemap/
   - title: "terms &amp; privacy policy"
