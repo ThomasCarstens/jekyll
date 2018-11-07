@@ -87,7 +87,7 @@ analytics:
 author:
   name             : *name 
   avatar           : "/assets/images/christian-werner.jpg"
-  bio              : "Scientist and Pythonista"
+  bio              : "scientist + pythonista"
   location         : "Frankfurt, DE"
   email            : #"contact@christianwerner.net"
   uri              :
