@@ -15,7 +15,7 @@ header:
   teaser: "images/guitar-app.jpeg"
 ---
 
-A web application that allows you to classify a guiatr image. Using transfer learning, fast.ai and the image downloader fastclass.
+A web application that allows you to classify a guitar image. Using transfer learning, fast.ai and the image downloader fastclass.
 
 {%
 include figure 
