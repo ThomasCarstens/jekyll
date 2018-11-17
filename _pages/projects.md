@@ -2,7 +2,6 @@
 layout: archive
 permalink: projects/
 title: "Projects"
-excerpt: "Stuff I work on"
 header:
   overlay_image: /assets/images/code.jpg
   

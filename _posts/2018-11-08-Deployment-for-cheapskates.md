@@ -1,14 +1,12 @@
 ---
+layout: single
 title: "Deployment for cheapskates"
 excerpt: "... using Dokku to deploy web apps and machine learning models on your own PaaS system"
 header:
   teaser: assets/images/clouds.jpg
   overlay_image: /assets/images/clouds.jpg
-categories:
-  - Tech
-tags:
-  - Devops
-  - Cloud
+categories: Tech
+tags: Devops Cloud
 toc: true
 toc_sticky: true
 date: 2018-11-08

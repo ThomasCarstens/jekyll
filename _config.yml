@@ -265,7 +265,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
@@ -274,7 +274,6 @@ defaults:
       header:
         overlay_image: /assets/images/fra_skyline.jpg
         overlay_filter: rgba(0, 0, 0, 0.25)
-        caption: "You gotta do what you gotta do."
         show_overlay_excerpt: false
   # _pages
   - scope:
