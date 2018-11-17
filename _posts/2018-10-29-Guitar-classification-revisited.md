@@ -2,8 +2,8 @@
 title: "Guitar classification revisited"
 excerpt: "Image classification with fastai v1 and a couple of tricks"
 header:
-  teaser: assets/images/guitars.jpg
-  overlay_image: /assets/images/guitars.jpg 
+  teaser: assets/images/guitars2.jpg
+  overlay_image: /assets/images/guitars2.jpg 
 categories:
   - tech
 tags:
@@ -31,15 +31,13 @@ alt="General structure of fastai v1 (source: docs.fast.ai)."
 caption="General structure of fastai v1 (source: docs.fast.ai)."
 %}
 
-One big change occurred at version 1.0.22 (I think, things move fast) when the [data block API](https://docs.fast.ai/data_block.html) was introduced. I will use this API in this post instead of the older dedicated vision tools as it's a more generic option and translates nicely also into the other fast.ai components tabular, text, and collab. In general, you specify the following components that together are used to create a [DataBunch](https://docs.fast.ai/basic_data.html#DataBunch) - the container that holds training, validation and test data as well as information about data augmentation. 
+One big change occurred at version 1.0.22 (I think, things move fast) when the [data block API](https://docs.fast.ai/data_block.html) was introduced. I will use this API in this post instead of the older dedicated vision tools as it's a more generic option and translates nicely also into the other fastai components tabular, text, and collab. In general, you specify the following components that together are used to create a [DataBunch](https://docs.fast.ai/basic_data.html#DataBunch) - the container that holds training, validation and test data as well as information about data augmentation. 
 
 ## Building a dataset with fastclass
 
-Before we start we need a dataset of images. You can use one of the [provided datasets](https://docs.fast.ai/datasets.html), get your data from [kaggle](https://www.kaggle.com/datasets) or [build your own](https://www.christianwerner.net/tech/Build-your-image-dataset-faster/). I recently wrote the small toolkit **fastclass** to make the process of downloading and cleaning a custom dataset easier (see [blog post](https://www.christianwerner.net/tech/Build-your-image-dataset-faster) and [GitHub repo](https://github.com/cwerner/fastclass)).
+Before we start we need a dataset of images. You can use one of the [provided datasets](https://docs.fast.ai/datasets.html), get your data from [kaggle](https://www.kaggle.com/datasets), [google](https://toolbox.google.com/datasetsearch), or [build your own](https://www.christianwerner.net/tech/Build-your-image-dataset-faster/). I recently wrote the small toolkit **fastclass** to make the process of downloading and cleaning a custom dataset easier (see [blog post](https://www.christianwerner.net/tech/Build-your-image-dataset-faster) and [GitHub repo](https://github.com/cwerner/fastclass)).
 
-**Note:** I provide the full jupyter notebook [here](https://github.com/cwerner/guitars-app/blob/master/nbs/Guitar_Classifier.ipynb). The dataset can be downloaded from within the notebook off a dropbox [link](https://www.dropbox.com/s/2a9oboj6dcoykt0/guitars.tgz?dl=1). 
-
-The guitar dataset consists of approx. 8500 images from 11 different guitar classes (five Fender models and six Gibsons).
+**Note:** I provide the full jupyter notebook [here](https://github.com/cwerner/guitars-app/blob/master/nbs/Guitar_Classifier.ipynb). The dataset can be downloaded from within the notebook off a dropbox [link](https://www.dropbox.com/s/2a9oboj6dcoykt0/guitars.tgz?dl=1). The guitar dataset consists of approx. 8500 images from 11 different guitar classes (five Fender models and six Gibsons).
 
 ## Getting started: ResNet-34
 
@@ -77,7 +75,7 @@ include figure
 image_path="/assets/images/posts/sample_of_guitars_from_batch.png" 
 alt="A batch of images from the dataset." 
 caption="A batch of images from the dataset."
-%}
+%}{: .align-center .width-75}
 
 To get started we do not train a model from scratch as a model pretrained on a large image dataset is always preferable to learning from random weight initializations. Using **transfer learning** we can leverage the substantial compute efforts that went into an existing model ([ResNet-34](https://arxiv.org/pdf/1512.03385.pdf) in this case, trained on > 1 million [ImageNet](http://www.image-net.org) images). We will reuse this knowledge and replace the *head* of the model with a new set of fully-connected layers dedicated to our classification task.  
 We start with the ResNet-34 base model and a DataBunch containing images of size 224x224 (bs=64). To track our progress we specify the *error_rate* as a metric. First, we run the learning rate finder to determine the optimal learning rate to improve our model quickly.
@@ -93,9 +91,9 @@ include figure
 image_path="/assets/images/posts/lrfinder1.png" 
 alt="Using the learning rate finder to determine the optimum learning rate." 
 caption="Using the learning rate finder to determine the optimum learning rate."
-%}
+%}{: .align-center .width-half}
 
-As is clear from the plot, we want to find a learning rate that gives us the smallest loss rate while making the biggest steps in the feature space. As a rule of thump we thus find the lowest point on the curve before the loss shoots up again and go one magnitude to the left (0.01 in this case). We then train the model for five cycles using the *fit_one_cycle()* method. The [one cycle policy](https://sgugger.github.io/the-1cycle-policy.html) is a great technique of setting the hyper parameters (learning rate, momentum and weight decay) in a way to train complex models fast and efficient (it's the standard approach in fastai). In essence, we want the biggest possible learning rate (determined by *lr_find*) to explore the feature space efficiently. Second, the learning rate changes in a cycle from a low value (10 times lower than the lf_find() result) up to the maximum and then back down again. [It was observed](https://sgugger.github.io/the-1cycle-policy.html) that the high learning rates at the middle of a cycle also act as regularization method that prevents overfitting. In addition, the momentum of the stochastic gradient descent (SGD) is altered in an anti-cyclical pattern. 
+As is clear from the plot, we want to find a learning rate that gives us the smallest loss rate while making the biggest steps in the feature space. As a rule of thump we thus find the lowest point on the curve before the loss shoots up again and go one magnitude to the left (0.01 in this case). We then train the model for five cycles using the *fit_one_cycle()* method. The [one cycle policy](https://sgugger.github.io/the-1cycle-policy.html) is a great technique of setting the hyper parameters (learning rate, momentum and weight decay) in a way to train complex models fast and efficient (it's the standard approach in fastai). In essence, we want the biggest possible learning rate (determined by *lr_find()*) to explore the feature space efficiently. Second, the learning rate changes in a cycle from a low value (10 times lower than the lf_find() result) up to the maximum and then back down again. [It was observed](https://sgugger.github.io/the-1cycle-policy.html) that the high learning rates at the middle of a cycle also act as regularization method that prevents overfitting. In addition, the momentum of the stochastic gradient descent (SGD) is altered in an anti-cyclical pattern. 
 
 ```python
 lr = 0.01
@@ -123,7 +121,7 @@ learn.lr_find()
 learn.recorder.plot()
 ```
 
-We set the learning rate to 1e-05 for the lower layers and 0.005 for the head (this is called a **discriminate learning rate**) as we do not want to destroy to basal, often general feature detection (edges, gradients, simple patterns, ...), that we gained from the pertained model for free. After five more cycles (another 6:20min of training) we end up with a model that can predict with 97.3% accuracy.   
+We set the learning rate to 1e-05 for the lower layers of the model and 0.005 for the head (this is called a **discriminate learning rate**) as we do not want to destroy to learned features in the lowest layers. Those detect simple features (edges, gradients, simple patterns) that should be pretty universal for all kinds of images. We got them from the pertained model for free and they are based on the model learning from millions of images. After five more cycles (another 6:20min of training) we end up with a model that can predict with 97.3% accuracy.   
 
 When we inspect the confusion matrix of the model, we can see where the model get's it wrong.  
 
@@ -141,13 +139,13 @@ include figure
 image_path="/assets/images/posts/confusionmatrix1.png" 
 alt="Confusion matrix for our customized ResNet-34 model." 
 caption="Confusion matrix for our customized ResNet-34 model."
-%}
+%}{:  .align-center .width-75}
 
-Seems the model has a hard time differentiating between a Fender Jaguar and Jazzmaster (who wouldn't - they are super similar). Dito for the Gibson ES and Les Paul (here, special models exist that lend features from the other model).
+Seems the model has a hard time differentiating between a Fender Jaguar and Jazzmaster (who wouldn't - they are super similar). Dito for the Gibson ES and Les Paul (here, special models exist that lend features from the other guitar ranges, i.e. f-holes, pickup configurations, ...).
 
 ## Level up: ResNet-50
 
-While this result is already quite impressive, we so far only used a relative simple model architecture. We now progress to [ResNet-50](https://arxiv.org/pdf/1512.03385.pdf), that features substantially more layers and thus weights that can potentially learn features of our data. To not exceed our GPU memory we have to reduce the batch size now from 64 to 32.   
+While this result is already quite impressive, we so far only used a relative simple model architecture. We now progress to [ResNet-50](https://arxiv.org/pdf/1512.03385.pdf), that features substantially more layers and thus weights that can potentially learn more features of our data. To not exceed our GPU memory we have to reduce the batch size now from 64 to 32.   
 
 First, we build a new DataBunch with the same train/ validation split but the smaller bs=32. We then create a new model based on the ResNet-50 architecture and run our learning rate finder again (the optimum learning rate seems to be 0.01). We immediately train the model for five cycles.
 
@@ -177,7 +175,7 @@ learn.save('guitars-v1-11cl-res50-224px-02')
 
 After these 2x5 cycles we now have an accuracy of 98%.
 
-```raw
+```bash
 Total time: 10:28
 epoch  train_loss  valid_loss  error_rate
 1      0.591651    0.319690    0.105294    (02:11)
@@ -218,7 +216,7 @@ learn.save('guitars-v1-11cl-res50-448px-01')
 
 With the bigger architecture and substantially larger images we now have to wait for 38 minutes.
 
-```raw
+```bash
 Total time: 37:46
 epoch  train_loss  valid_loss  error_rate
 1      0.183134    0.086426    0.028235    (07:42)
@@ -228,7 +226,7 @@ epoch  train_loss  valid_loss  error_rate
 5      0.049533    0.048065    0.013529    (07:31)
 ```
 
-However, as you can see the accuracy of the model improved drastically! Compared to the previous model, we now have an accuracy of 98.6% (a relative error rate improvement of 25%!). Again, we also train the full model.
+However, as you can see the accuracy of the model improved drastically! Compared to the previous model, we now have an accuracy of 98.6% (a relative error rate improvement of 30%!). Again, we also train the full model.
 
 ```python
 learn.load('guitars-v1-11cl-res50-448px-01')
@@ -238,33 +236,31 @@ learn.fit_one_cycle(5, slice(1e-06, lr/5))
 
 This takes even longer (49:50min):
 
-```raw
-Total time: 49:50
+```bash
+Total time: 49:52
 epoch  train_loss  valid_loss  error_rate
-1      0.079234    0.061442    0.014706    (10:02)
-2      0.071584    0.055586    0.014706    (09:57)
-3      0.066293    0.047648    0.011765    (09:57)
-4      0.039238    0.045439    0.012941    (09:56)
-5      0.033696    0.047318    0.014118    (09:57)
+1      0.067349    0.044458    0.015294    (10:02)
+2      0.055378    0.056939    0.015294    (09:57)
+3      0.050544    0.045030    0.011765    (09:57)
+4      0.034476    0.040948    0.012353    (09:57)
+5      0.032105    0.041326    0.011765    (09:57)
 ```
 
-We improve the accuracy again: the final model now has an accuracy of 98.8%.
-
-If we check the confusion matrix we see that almost all validation files are predicted correctly.
+We improve the accuracy again: the final model now has an accuracy of **98.8%**. If we check the confusion matrix we see that almost all validation files are predicted correctly.
 
 {%
 include figure 
-image_path="/assets/images/posts/confusion_matrix2.png" 
+image_path="/assets/images/posts/confusionmatrix2.png" 
 alt="Confusion matrix of the final model." 
 caption="Confusion matrix of the final model."
-%}
+%}{: .align-center .width-75}
 
 ## Conclusion
 
-As shown, it takes relative little effort to build a custom image classifier capable of some extremely high accuracy. Using a deep learning library like fastai, a pre-trained model architecture, a reasonable-size dataset and some tricks can get you a long way!
+As shown, it takes relative little effort to build a custom image classifier capable of some extremely high accuracy. Using a deep learning library like fastai, a pre-trained model architecture, a reasonably-size dataset and some tricks can get you a long way!
 
 ## What's next
 
-In the next blog posts I will look at Class Activation Maps to see which regions of an image actually 'trigger' the classication. Furthermore, I want to write a small post about how to deploy the model with a Flask web app. So stay tuned.
+In the next blog posts I will look at Class Activation Maps to see which regions of an image actually 'trigger' the classification. Furthermore, I want to write a small post about how to deploy the model with a [flask web app](http://guitars.cwerner.ai). So stay tuned.
 
 The notebook can be found [here](https://github.com/cwerner/guitars-app/blob/master/nbs/Guitar_Classifier.ipynb).
