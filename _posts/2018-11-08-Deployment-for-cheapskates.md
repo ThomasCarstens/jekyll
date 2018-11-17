@@ -14,7 +14,7 @@ toc_sticky: true
 date: 2018-11-08
 ---
 
-Ok, so [Heroku](https://www.heroku.com) is a nice but kind of expensive PaaS solution for hobby projects ($7/month per dyno). They have a free tier nut apps there are deployed on-demand and thus have a nasty start-up delay and autosleep after 30min. As an alternative, let's use [Dokku](http://dokku.viewdocs.io/dokku/) the "Docker powered mini-Heroku". They also have a another nice slogan: "Own Your PaaS. Infrastructure at a fraction of the cost". Sounds good to me. In essence, Dokku gives you your own Heroku. After installation you can push Heroku-compatible applications via git. They autobuild using Heroku buildpacks and then run in isolated containers.  
+Ok, so [Heroku](https://www.heroku.com) is a nice but kind of expensive PaaS solution for hobby projects ($7/month per dyno). They have a free tier but apps there are deployed on-demand and thus have a nasty start-up delay. In addition, they will autosleep after 30min. As an alternative, let's use [Dokku](http://dokku.viewdocs.io/dokku/) the "Docker powered mini-Heroku". They also have a another nice slogan: "Own Your PaaS. Infrastructure at a fraction of the cost". Sounds good to me. In essence, Dokku gives you your own Heroku. After installation you can push Heroku-compatible applications via git. They autobuild using Heroku buildpacks and then run in isolated containers.  
 
 {%
 include figure 
