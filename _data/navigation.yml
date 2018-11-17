@@ -1,19 +1,19 @@
 # main links
 main:
-  - title: "about"
+  - title: "About"
     url: /about/
-  - title: "projects"
+  - title: "Projects"
     url: /projects/
   # - title: "Sample Posts"
   #   url: /year-archive/
-  - title: "categories"
+  - title: "Categories"
     url: /categories/
-  - title: "topics"
+  - title: "Topics"
     url: /tags/
-  - title: "cv"
+  - title: "CV"
     url: /cv/  
-  - title: "sitemap"
+  - title: "Sitemap"
     url: /sitemap/
-  - title: "terms &amp; privacy policy"
+  - title: "Terms &amp; Privacy Policy"
     url: /terms/
 

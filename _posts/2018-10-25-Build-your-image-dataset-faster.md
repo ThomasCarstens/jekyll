@@ -5,11 +5,11 @@ header:
   teaser: assets/images/art.jpg
   overlay_image: /assets/images/art.jpg 
 categories:
-  - tech
+  - Tech
 tags:
-  - cnn
-  - python
-  - deep learning
+  - CNN
+  - Python
+  - Deep Learning
 toc: false
 toc_sticky: true
 date: 2018-10-25

@@ -5,9 +5,8 @@ header:
   caption: "Digging dirt"
   cta_url: #"https://unsplash.com"
 categories:
-  - misc
+  - Misc
 tags:
-last_modified_at: 2016-11-03T11:45:09-04:00
 ---
 
 New years' resolutions everyone.  

@@ -3,7 +3,7 @@ permalink: /about/
 title: " "
 excerpt: ""
 header:
-  overlay_image: /assets/images/default.jpg 
+  overlay_image: /assets/images/fra_skyline.jpg 
 
 
 last_modified_at: 2018-01-10T11:22:24-05:00

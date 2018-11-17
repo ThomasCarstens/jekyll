@@ -5,13 +5,13 @@ header:
   teaser: assets/images/guitars2.jpg
   overlay_image: /assets/images/guitars2.jpg 
 categories:
-  - tech
+  - Tech
 tags:
-  - cnn
+  - CNN
   - fastai
-  - python
-  - guitar
-  - deep learning
+  - Python
+  - Guitar
+  - Deep Learning
 toc: true
 toc_sticky: true
 date: 2018-10-29

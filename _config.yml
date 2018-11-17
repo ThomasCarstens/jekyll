@@ -13,14 +13,15 @@
 github: [metadata]
 #theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" #default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" #default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Christian Werner"
+title                    : "Christian's Blog"
 title_separator          : "&#124;"
 name                     : &name "Christian Werner"
-description              : &description "Data, Science and Stuff..."
+description              : > # this means to ignore newlines until "baseurl:"
+ &description "Data, Science and Stuff..."
 url                      : https://www.christianwerner.net # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "cwerner/chrwerner.github.io"
@@ -268,6 +269,13 @@ defaults:
       comments: true
       share: true
       related: true
+      toc_label: Contents
+      toc_icon: lis
+      header:
+        overlay_image: /assets/images/fra_skyline.jpg
+        overlay_filter: rgba(0, 0, 0, 0.25)
+        caption: "You gotta do what you gotta do."
+        show_overlay_excerpt: false
   # _pages
   - scope:
       path: "_pages"
