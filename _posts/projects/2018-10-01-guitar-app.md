@@ -1,9 +1,13 @@
 ---
 layout: single
 title: AxeNet - Guitar Classifier App
-categories: projects
+categories: Projects
 modified: 2018-11-01
-tags: Python App CNN Deep Learning
+tags: 
+- Python
+- Apps
+- CNN
+- Deep Learning
 comments: true
 share: true
 read_time: true
@@ -24,4 +28,4 @@ alt="AxeNet Guitar Classifier"
 caption="AxeNet Guitar Classifier App"
 %}{: .width-half}
 
-<a href="http://guitars.cwerner.ai">Try it out!</a>
+Try it out at<a href="http://guitars.cwerner.ai">http://guitars.cwerner.ai</a>

@@ -13,6 +13,7 @@ tags:
   - Guitar
   - Deep Learning
 toc: true
+toc_sticky: true
 date: 2018-10-29
 ---
 

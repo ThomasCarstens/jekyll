@@ -6,7 +6,9 @@ header:
   teaser: assets/images/clouds.jpg
   overlay_image: /assets/images/clouds.jpg
 categories: Tech
-tags: Devops Cloud
+tags: 
+- Devops
+- Cloud
 toc: true
 toc_sticky: true
 date: 2018-11-08
