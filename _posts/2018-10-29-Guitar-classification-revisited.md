@@ -100,7 +100,7 @@ learn.fit_one_cycle(5, slice(lr))
 
 After only 4:34 min on a [K80 GPU](https://www.nvidia.com/en-gb/data-center/tesla-k80/) we already have a model capable of predicting the right guitar model from a set of eleven classes with 95.1% accuracy!
 
-```raw
+```bash
 Total time: 04:34
 epoch  train_loss  valid_loss  error_rate
 1      0.928203    0.450700    0.162353    (00:57)
