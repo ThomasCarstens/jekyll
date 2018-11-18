@@ -1,6 +1,6 @@
 ---
 title: "Guitar classification revisited"
-excerpt: "A step-by-step description of how to use the new fastai v1 deep learning toolbox to build a state-of-the-art image classifier for your classification goal iwith less than 2 hours of model training."
+excerpt: "A step-by-step description of how to use the new fastai v1 deep learning toolbox to build a state-of-the-art image classifier for your classification goal with less than 2 hours of model training."
 header:
   teaser: assets/images/guitars2.jpg
   overlay_image: /assets/images/guitars2.jpg 
