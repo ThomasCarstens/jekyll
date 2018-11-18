@@ -8,7 +8,7 @@ main:
   #   url: /year-archive/
   - title: "Categories"
     url: /categories/
-  - title: "Topics"
+  - title: "Posts"
     url: /tags/
   - title: "CV"
     url: /cv/  
