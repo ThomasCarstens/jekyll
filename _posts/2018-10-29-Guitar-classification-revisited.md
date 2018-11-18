@@ -1,6 +1,6 @@
 ---
 title: "Guitar classification revisited"
-excerpt: "Image classification with fastai v1 and a couple of tricks"
+excerpt: "A step-by-step description of how to use the new fastai v1 deep learning toolbox to build a state-of-the-art image classifier for your classification goal iwith less than 2 hours of model training."
 header:
   teaser: assets/images/guitars2.jpg
   overlay_image: /assets/images/guitars2.jpg 
@@ -39,9 +39,7 @@ Before we start we need a dataset of images. You can use one of the [provided da
 
 **Note:** I provide the full jupyter notebook [here](https://github.com/cwerner/guitars-app/blob/master/nbs/Guitar_Classifier.ipynb). The dataset can be downloaded from within the notebook off a dropbox [link](https://www.dropbox.com/s/2a9oboj6dcoykt0/guitars.tgz?dl=1). The guitar dataset consists of approx. 8500 images from 11 different guitar classes (five Fender models and six Gibsons).
 
-## Getting started: ResNet-34
-
-### Building a DataBunch
+## Starting: ResNet-34
 
 Using the new data block API we build a DataBunch from the images in our dataset. Since we reuse this bit of code later I divided it into two parts (training and validation data split; image transformation):  
 

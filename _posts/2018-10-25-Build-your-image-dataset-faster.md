@@ -1,6 +1,6 @@
 ---
 title: "Build your image dataset faster"
-excerpt: "Some small tools to make generating custom image datasets for building image classifiers less painful"
+excerpt: "So you want to build your own image dataset to train a fancy deep learning model? This small tool helps to make generating custom image datasets for building image classifiers less painful."
 header:
   teaser: assets/images/art.jpg
   overlay_image: /assets/images/art.jpg 

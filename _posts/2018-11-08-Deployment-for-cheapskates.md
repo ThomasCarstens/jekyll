@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Deployment for cheapskates"
-excerpt: "... using Dokku to deploy web apps and machine learning models on your own PaaS system"
+excerpt: "A short rundown of how to use Dokku to deploy web apps and machine learning models on your own system. Get your very own PaaS system on the cheap by using open source software and a low-cost virtual private cloud instance."
 header:
   teaser: assets/images/clouds.jpg
   overlay_image: /assets/images/clouds.jpg
@@ -23,10 +23,10 @@ caption="Meet dokku: The smallest PaaS implementation you've ever seen"
 
 To host Dokku, there are multiple options and people seem to like [Digital Ocean](https://www.digitalocean.com) who provide a Dokku droplet so you start deploying pretty much right away. But we want to go even cheaper (cheapskate, you know)!  As an alternative, I will present a solution that'll cost you about 3 bucks a month and you can potentially host multiple apps with this (depending on your RAM and disk requirement).  
 
-# Start a Virtual Private Cloud instance
+## Start a Virtual Private Cloud instance
 We need a virtual server/ Virtual Private Cloud (VPC) instance to install Dokku. I chose a German hosting company called [Hetzner](https://www.hetzner.de). I use the [base-level CX11 vCPU instance](https://www.hetzner.de/cloud) that features 1 vCPU, 2GB of RAM and 20GB NVMe SSD and 20TB of traffic. Then I choose the linux system for the instance (I opted for [Ubuntu 18.04 LTS](http://releases.ubuntu.com/18.04/)). Next I create a passwordless ssh key and add the public key to the instance.
 
-# Install Dokku
+## Install Dokku
 Now we ssh into the instance and first set the hostname (replace the IP and hostname with your info).
 ```bash
 echo "100.100.100.100 dokku.mydomain.net dokku" >> /etc/hosts
@@ -83,7 +83,7 @@ dokku plugin:install-dependencies --core
 
 On the machine use the *dokku* command to start and stop apps, see logs and configure things. See the [help pages](http://dokku.viewdocs.io/dokku~v0.12.13/getting-started/installation) here for details.
 
-# Deploy an app
+## Deploy an app
 Dokku relies on git for deployment. First, make sure you have a local repository setup on your local machine (i.e. *git init, ...*). Then you need to add a deployment remote where the app will be pushed to (this is your dokku server you just set up). In the command below, *my-app* will also be used by dokku to create your app subdomain when deployed. Thus, the command will host your app at *my-app.mydomain.net* . With git push you simply deploy and trigger a rebuild if the app already exists. **Done.** 
 
 ```
@@ -98,7 +98,7 @@ A wildcard DNS record looks like this (replace the ip-address with your IP from 
 A   *.mydomain.net  100.100.100.100  
 ```
 
-# Pitfalls
+## Pitfalls
 There are some things that you should watch out for.
 
 If you are ever stuck with this error message  
@@ -109,7 +109,7 @@ error: failed to push some refs to 'dokku@mydomain.net:my-app'
 
 There a a couple of things you should check:  
 
-## Insufficient memory
+### Insufficient memory
 Check that your servers' disk and memory are sufficient. I discovered that the Ubuntu 18.04 image has only a small swapfile allocated so I manually increased that to 4GB just to be sure.
 
 ```bash
@@ -120,7 +120,7 @@ sudo mkswap /swapfile
 sudo swapon /swapfile
 ```
 
-## Insufficient disk space
+### Insufficient disk space
 
 Docker can really fill up your hard drive. So if you experiment a lot it might also be a good idea to clean up old stuff like so:
 
@@ -151,5 +151,5 @@ docker rm $(docker ps -qa --no-trunc --filter "status=exited")
 
 If this stuff does not help you might need to upgrade your machine or attach a [volume](https://www.hetzner.de/cloud) to your instance to offload stuff.
 
-# Conclusion
+## Conclusion
 I think this a neat possibility to bring apps to live for cheap. Plus, you also learn a bit about PaaS and devops along the way. I will illustrate how to actually build a python based webapp in another post soon.

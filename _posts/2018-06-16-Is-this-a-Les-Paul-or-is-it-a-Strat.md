@@ -1,6 +1,6 @@
 ---
 title: "Is this a Les Paul or is this a Strat?"
-excerpt: "... using convolutional neural nets to classify guitars"
+excerpt: "How to build a convolutional neural net that can discriminate between guitar models."
 header:
   teaser: assets/images/guitars.jpg
   overlay_image: /assets/images/guitars.jpg 
