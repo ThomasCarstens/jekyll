@@ -3,7 +3,7 @@ layout: single
 title: AxeNet - Guitar Classifier App
 categories: projects
 modified: 2018-11-01
-tags: [python, webapp, cnn, deep learning]
+tags: Python App CNN Deep Learning
 comments: true
 share: true
 read_time: true
