@@ -8,7 +8,7 @@ toc: true
 ## About / Impressum / GDPR
 
 This is my private blog where I write about projects, ideas and topics I work on or that are of general interest to me. Thus,
-everything expressed on this blog is my provate, personal opinion and is not representative of my employer.
+everything expressed on this blog is my private, personal opinion and is not representative of my employer.
 
 ## Impressum
 
