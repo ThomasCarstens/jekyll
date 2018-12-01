@@ -28,4 +28,4 @@ alt="AxeNet Guitar Classifier"
 caption="AxeNet Guitar Classifier App"
 %}{: .width-half}
 
-Try it out at<a href="http://guitars.cwerner.ai">http://guitars.cwerner.ai</a>
+Try it out at <a href="http://guitars.cwerner.ai">http://guitars.cwerner.ai</a>
