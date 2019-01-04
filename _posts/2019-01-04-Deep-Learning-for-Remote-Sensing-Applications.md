@@ -26,6 +26,4 @@ alt="Deep Learning for Remote Sensing"
 caption="Deep Learning for Remote Sensing Applications"
 %}
 
-For your convenience the open-access paper discussed can be found [here](https://www.mdpi.com/2220-9964/7/10/389), the slides can be downloaded <a download href="{{ page.document_path }}">[here]</a>, and the link to the meetup recording will be provided [here](https://twimlai.com/meetups/) once Sam releases it into the wild.
-
-  
+For your convenience the open-access paper discussed can be found [here](https://www.mdpi.com/2220-9964/7/10/389), the slides can be downloaded <a download href="{{ page.document_path }}">here</a>, and the recording of the meetup will be provided [here](https://twimlai.com/meetups/) once Sam releases it into the wild.
