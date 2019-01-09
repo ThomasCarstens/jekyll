@@ -19,7 +19,9 @@ However, once you want to edit the formula (to match symbols or variable names) 
 
 Anyways, depending on your LaTeX and math skills bigger or more fancy equations still require you to put quite some effort into composing the actual code that gives you the nice formula. 
 
-But fear not - with [MathPix](https://www.mathpix.com) this workflow is amazingly simple (not endorsed by the developers, I just discovered their tool recently and love it). Their page probably says it best: "Take a screenshot of math and paste the LaTex into your editor, all with a single keyboard shortcut." Nice! And that's it really. Oh, and it's free.
+But fear not - with [MathPix](https://www.mathpix.com) this workflow is amazingly simple (not endorsed by the developers, I just discovered their tool recently and love it). Their page probably says it best: "Take a screenshot of math and paste the LaTex into your editor, all with a single keyboard shortcut." Nice! Oh, and it's free! 
+
+The app used OCR to trace the equation and convert it into LaTeX formula syntax which you can paste into any editor or app that can deal with it. And that's it really. 
 
 {%
 include figure 
