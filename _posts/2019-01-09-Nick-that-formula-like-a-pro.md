@@ -13,7 +13,7 @@ toc: false
 date: 2019-01-09
 ---
 
-Ok, this is going to be a shorty. I was recently in need of producing some nice formulas for a [presentation](https://www.christianwerner.net/tech/Deep-Learning-for-Remote-Sensing-Applications/) and usually I try to just copy them from the source PDF since [Keynote.app](https://www.apple.com/lae/keynote/) is pretty good at incorporating high-quality PDF snippets into a slide.
+Ok, this is going to be a shorty. I recently needed some nice formulas from a scientific paper for a [presentation](https://www.christianwerner.net/tech/Deep-Learning-for-Remote-Sensing-Applications/) and usually I try to just copy them from the source PDF since [Keynote.app](https://www.apple.com/lae/keynote/) is pretty good at incorporating high-quality PDF snippets into a slide.
 
 However, once you want to edit the formula (to match symbols or variable names) you have to tediously compose it by hand. For Keynote people like myself there is also the option since mid 2018 to just enter LaTeX or MathML code and have it render beautifully on the slides. For Word or Powerpoint folks adding formulas usually means using the clunky Microsoft Equation Editor. However, it seems Office 365 now supports to enter formulas using LaTeX syntax, too, but I'm still on Office 2016 here. 
 
