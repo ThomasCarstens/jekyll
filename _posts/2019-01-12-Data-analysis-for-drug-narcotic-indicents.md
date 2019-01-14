@@ -10,6 +10,7 @@ tags:
 - Data Science
 - Visualization
 toc: true
+toc_sticky: true
 date: 2019-01-12
 ---
 
