@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Data analysis for drug/ narcotic incidents"
+title: "Data analysis for drug/ alcohol incidents"
 excerpt: "A toy data analysis for drug/ alcohol related offenses recorded in San Francisco and Settle in the year 2017"
 header:
   teaser: assets/images/crime.jpg
@@ -14,7 +14,7 @@ toc_sticky: true
 date: 2019-01-12
 ---
 
-# Comparison of drug/ alcohol offenses incidents in Seattle and San Francisco
+# Comparison of drug/ alcohol offenses in Seattle and San Francisco
 
 As part of the Coursera course *Communicating Data Science Results* I want to present my assignment in this blog post.
 The aim of the assignment is to analyze and visualize crime incident data for the cities Seattle and San Francisco.
@@ -26,8 +26,7 @@ The aim of the assignment is to analyze and visualize crime incident data for th
 The actual jupyter notebooks are located at my [github](https://www.github.com/cwerner/crimeanalysis)
 
 ## Report
-
-The following analysis reports on alcohol and narcotic related offenses as reported by the San Francisco and Seattle police departments for the year 2017. 	The most common offenses reported for San Francisco are "Larceny/Theft", "Other offences", "Assault", whereas the Top 3 for Seattle are "Burglary", "Car Prowl", "Other Property". However, it has to be noted that both data schema are not fully compatible and this a class mismatch is likely (also, the summary classes are not disentangled). For the preprocessing carried out prior to this analysis please see the jupyter notebooks [here].  
+The following analysis reports on alcohol and narcotic related offenses as reported by the San Francisco and Seattle police departments for the year 2017. 	The most common offenses reported for San Francisco are "Larceny/Theft", "Other offences", "Assault", whereas the Top 3 for Seattle are "Burglary", "Car Prowl", "Other Property". However, it has to be noted that both data schema are not fully compatible and thus a class mismatch is likely (also, the summary classes are not disentangled). For the preprocessing carried out prior to this analysis and the individual code that produced these plots please see the jupyter notebook [here]((https://www.github.com/cwerner/crimeanalysis).  
 Regarding alcohol and narcotics, these offenses ("Narcotics", "Driving under the Influence", "Liquor Violation") rank on position 10, 20, and 23 (San Francisco) and 11, 22, 32 (Seattle), respectively (see Fig. 1). 
 
 {%
