@@ -14,10 +14,10 @@ toc_sticky: true
 date: 2019-01-12
 ---
 
-As part of the Coursera course *Communicating Data Science Results* I want to present my assignment in this blog post.
+As part of the Coursera course [Communicating Data Science Results](https://www.coursera.org/learn/data-results) I want to present my assignment in this blog post.
 The aim of the assignment is to analyze and visualize crime incident data for the cities Seattle and San Francisco.
 
-**Note:** instead of the provided small subset (Summer 2014) of crime data I used a full year worth of data from the original data sources (year: 2017): 
+**Note:** Instead of the provided small subset (summer 2014) of crime data I used a full year worth of data from the original data sources (year: 2017): 
 - [_Full Seattle incident dataset_](https://data.seattle.gov/Public-Safety/Seattle-Police-Department-Police-Report-Incident/7ais-f98f) 
 - [_Full San Francisco incident dataset_](https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-yvry)
 
@@ -85,7 +85,7 @@ alt="Location of offenses in SFO"
 caption="Fig.6: Location of offenses in San Francisco"
 %}
 
-In Seattle, ""Driving under the Influence" and "Narcotics" dominate in the CBD and the few reported incidents of "Liquor Violation" also occur in this area, although the small sample size makes a good interpretation difficult.
+In Seattle, "Driving under the Influence" and "Narcotics" dominate in the CBD and the few reported incidents of "Liquor Violation" also occur in this area, although the small sample size makes a good interpretation difficult.
 
 {%
 include figure 
