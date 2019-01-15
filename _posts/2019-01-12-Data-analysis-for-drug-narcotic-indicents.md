@@ -14,8 +14,6 @@ toc_sticky: true
 date: 2019-01-12
 ---
 
-# Comparison of drug/ alcohol offenses in Seattle and San Francisco
-
 As part of the Coursera course *Communicating Data Science Results* I want to present my assignment in this blog post.
 The aim of the assignment is to analyze and visualize crime incident data for the cities Seattle and San Francisco.
 
@@ -25,7 +23,7 @@ The aim of the assignment is to analyze and visualize crime incident data for th
 
 The actual jupyter notebooks are located at my [github](https://www.github.com/cwerner/crimeanalysis)
 
-## Report
+# Report
 The following analysis reports on alcohol and narcotic related offenses as reported by the San Francisco and Seattle police departments for the year 2017. 	The most common offenses reported for San Francisco are "Larceny/Theft", "Other offences", "Assault", whereas the Top 3 for Seattle are "Burglary", "Car Prowl", "Other Property". However, it has to be noted that both data schema are not fully compatible and thus a class mismatch is likely (also, the summary classes are not disentangled). For the preprocessing carried out prior to this analysis and the individual code that produced these plots please see the jupyter notebook [here]((https://www.github.com/cwerner/crimeanalysis).  
 Regarding alcohol and narcotics, these offenses ("Narcotics", "Driving under the Influence", "Liquor Violation") rank on position 10, 20, and 23 (San Francisco) and 11, 22, 32 (Seattle), respectively (see Fig. 1). 
 
@@ -36,7 +34,7 @@ alt="Crimes"
 caption="Fig.1: Total number of offenses for San Francisco and Seattle (year: 2017, classes partly matched)"
 %}
 
-### Seasonality of crimes/ offenses
+## Seasonality of crimes/ offenses
 
 Next, the temporal occurrence of these offenses is investigated. As shown in Fig. 2 the number of recorded incidents varies over the weekdays (note that the number of narcotics incidents is scaled by a factor of 10 for visual reasons). It is obvious that alcohol related offenses are are most common at the weekends in both cities. Furthermore, narcotic reports on weekends are lower in both cities, too. 
 
@@ -74,7 +72,7 @@ alt="Offenses per day-/ night-time"
 caption="Fig.5: Offenses split into day and night hours"
 %}
 
-### Location of crimes/ offenses
+## Location of crimes/ offenses
 
 In addition to the temporal variability, the offenses also vary by their location. To illustrate this, incidents were mapped by their reported geographic coordinates.
 
@@ -96,6 +94,6 @@ alt="Location of offenses in SFO"
 caption="Fig.7: Location of offenses in Seattle"
 %}
 
-## Summary
+# Summary
 
 It was shown that the time and location of drug and alcohol related incidents varies strongly for both San Francisco and Seattle. However, often they do follow similar patterns. A more in-depth analysis is hampered by the different data structures and a more thorough feature mapping is required for more advanced analytics. 
