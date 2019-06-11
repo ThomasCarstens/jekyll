@@ -17,14 +17,14 @@ minimal_mistakes_skin    : "contrast" #default" # "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Christian's Blog"
+title                    : "Thomas's Website"
 title_separator          : "&#124;"
-name                     : &name "Christian Werner"
+name                     : &name "Thomas Carstens"
 description              : > # this means to ignore newlines until "baseurl:"
- &description "Data, Science and Stuff..."
-url                      : https://www.christianwerner.net # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+ &description "My blog and technology portfolio"
+url                      : https://thomascarstens.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "cwerner/chrwerner.github.io"
+repository               : "ThomasCarstens/ThomasCarstens.github.io"
 teaser                   : # "/assests/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -63,7 +63,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "cwerner76"
+  username               : "thomaxarstens"
 facebook:
   username               :
   app_id                 :
@@ -76,7 +76,7 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
   # - "https://twitter.com/cwerner76"
-      
+
 # Analytics
 analytics:
   provider               : false #"google" # false (default), "google", "google-universal", "custom"
@@ -86,10 +86,10 @@ analytics:
 
 # Site Author
 author:
-  name             : *name 
-  avatar           : "/assets/images/christian-werner.jpg"
-  bio              : "scientist + pythonista"
-  location         : "Frankfurt, DE"
+  name             : *name
+  avatar           : "/assets/images/thomascarstens_profile.jpg"
+  bio              : "Developer advancing democratized technology"
+  location         : "Paris, France"
   email            : #"contact@christianwerner.net"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -99,20 +99,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "cwerner"
-  gitlab           : "cwerner"
+  github           : "ThomasCarstens"
+#  gitlab           : "ThomasCarstens"
   google_plus      :
-  googlescholar    : "7YzW4ZUAAAAJ&hl=en"
+#  googlescholar    : "7YzW4ZUAAAAJ&hl=en"
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "christian-werner-01"
+  linkedin         : "thomas-carstens-31632468"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "cwerner76"
+  twitter          : "thomaxarstens"
   vine             :
   weibo            :
   xing             :
@@ -290,4 +290,3 @@ defaults:
       layout: splash
       author_profile: false
       share: true
-
