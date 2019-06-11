@@ -5,7 +5,7 @@ breadcrumbs: true
 permalink: /cv/
 share: true
 comments: false
-document_path: /assets/docs/CV_Werner_web.pdf 
+document_path: /assets/docs/Thomas_Carstens_webCV_11june.pdf
 ---
 
 This is my current CV <a download href="{{ page.document_path }}">[pdf]</a>.
