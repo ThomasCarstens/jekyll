@@ -88,9 +88,9 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/thomascarstens_profile.jpg"
-  bio              : "Developer advancing democratized technology"
-  location         : "Paris, France"
-  email            : #"contact@christianwerner.net"
+  bio              : "Developer"
+  location         : "Paris"
+  email            : "thomaxarstens@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -101,10 +101,10 @@ author:
   foursquare       :
   github           : "ThomasCarstens"
 #  gitlab           : "ThomasCarstens"
-  google_plus      :
+#  google_plus      :
 #  googlescholar    : "7YzW4ZUAAAAJ&hl=en"
   keybase          :
-  instagram        :
+  instagram        : thomas_carstens
   lastfm           :
   linkedin         : "thomas-carstens-31632468"
   pinterest        :
