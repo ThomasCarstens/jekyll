@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "contrast" #default" # "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Thomas's Website"
+title                    : "Thomas"
 title_separator          : "&#124;"
 name                     : &name "Thomas Carstens"
 description              : > # this means to ignore newlines until "baseurl:"
@@ -87,10 +87,10 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "/assets/images/thomascarstens_profile.jpg"
+  avatar           : "/assets/images/profilepicture.jpg"
   bio              : "Developer"
   location         : "Paris"
-  email            : "thomaxarstens@gmail.com"
+  email            : #"thomaxarstens@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -116,7 +116,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/channel/UCpIKwUC1AEqjmKNTNmzSWwg" 
+  youtube          : # "https://youtube.com/channel/UCpIKwUC1AEqjmKNTNmzSWwg"
 
 
 # Reading Files
