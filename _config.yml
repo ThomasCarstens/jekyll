@@ -225,7 +225,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
+contacter:
+  type: liquid
+  path: /contact/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -254,7 +256,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-
+  contact:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
