@@ -2,8 +2,8 @@
 layout: home
 author_profile: true
 header:
-  title: "Science, Data, and Python"
-  excerpt: "... the good, the bad, and the ugly..."
+  title: "Ecole EFREI"
+  excerpt: "... studying to become a roboticist ..."
   cta_label:
   cta_url:
   caption:
@@ -23,3 +23,11 @@ a healthcare robot. I write about my projects, and I am working to build myself 
 so do check out the blog I have here! While I'm in Paris, I am financing my studies with work as a developer.
 If you are interested in what I am doing feel free to contact me
 </br>
+
+{% for tag in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+  {% for post in posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}

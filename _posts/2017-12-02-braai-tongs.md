@@ -3,12 +3,13 @@ layout: single
 title: "Braai tongs mechanical design"
 excerpt: "These braai tongs were designed to have LED illumination but also compete with tongs currently on the market."
 header:
-  teaser: assets/images/posts/braai-tongs/right-open.jpg
+  teaser: ../assets/images/posts/braai-tongs/right-open.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
-categories: Other
+categories: Projects
 tags:
-- Product development
-- Visualization
+- Solidworks
+- Consumer product
+- Electro-mechanical 
 toc: true
 toc_sticky: true
 date: 2017-12-02

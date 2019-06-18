@@ -5,10 +5,14 @@ excerpt: "A custom mobile app developed and implemented at the University of Cap
 header:
   teaser: assets/images/posts/app-for-education/app-pics/picture-and-text.jpeg
   overlay_image: assets/images/posts/app-for-education/app-pics/picture-and-text.jpeg
-categories: other
+categories: Projects
 tags:
-- Data Science
-- Visualization
+- Mobile app
+- Ionic
+- Angular
+- Firebase
+- Android app
+- Ios app
 toc: true
 toc_sticky: true
 date: 2018-11-11

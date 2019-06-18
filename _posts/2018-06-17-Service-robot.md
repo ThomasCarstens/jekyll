@@ -5,10 +5,14 @@ excerpt: "A low-cost mobile robot to deliver medication, keys and other small it
 header:
   teaser: assets/images/posts/service-robot/line-follower-construction.png
   overlay_image: /assets/images/posts/service-robot/line-follower-construction.png
-categories: Other
+categories: Projects
 tags:
-- Data Science
-- Visualization
+- Robot
+- Autonomous system
+- Solidworks
+- Lasercutting
+- C++
+- STM32
 toc: true
 toc_sticky: true
 date: 2019-01-12

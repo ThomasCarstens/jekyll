@@ -21,8 +21,9 @@ a healthcare robot. I write about my projects, and I am working to build myself 
 so do check out the blog I have here! While I'm in Paris, I am financing my studies with work as a developer.
 If you are interested in what I am doing please contact me
 
-
-
+{% for tag in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+{% endfor %}
 
 
 ---
