@@ -89,10 +89,10 @@ author:
   name             : *name
   avatar           : "/assets/images/profilepicture.jpg"
   bio              : "Developer"
-  location         : "Paris"
+  location         : "Based in Paris"
   email            : #"thomaxarstens@gmail.com"
-  uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
+  uri              : "thomascarstens.github.io"
+  home             : "thomascarstens.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
