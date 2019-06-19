@@ -2,11 +2,13 @@
 layout: single
 title: "App for education"
 excerpt: "A custom mobile app developed and implemented at the University of Cape Town."
+
 header:
   teaser: assets/images/posts/app-for-education/app-pics/picture-and-text.jpeg
   overlay_image: assets/images/posts/app-for-education/app-pics/picture-and-text.jpeg
-categories: Projects
+categories: Tech-Project
 tags:
+- Design-and/or-development
 - Mobile app
 - Ionic
 - Angular

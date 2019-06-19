@@ -10,7 +10,5 @@ last_modified_at: 2019-06-11T11:22:24-05:00
 toc: false
 ---
 
-
-{% for post in site.posts %}
-  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
-{% endfor %}
+# The best way to contact me is by e-mail
+thomaxarstens@gmail.com  

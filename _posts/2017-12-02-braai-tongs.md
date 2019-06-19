@@ -5,11 +5,12 @@ excerpt: "These braai tongs were designed to have LED illumination but also comp
 header:
   teaser: ../assets/images/posts/braai-tongs/right-open.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
-categories: Projects
+categories: Tech-Project
 tags:
+- Design-and/or-development
 - Solidworks
 - Consumer product
-- Electro-mechanical 
+- Electro-mechanical
 toc: true
 toc_sticky: true
 date: 2017-12-02

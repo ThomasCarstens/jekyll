@@ -2,11 +2,15 @@
 layout: single
 title: "Service Robot"
 excerpt: "A low-cost mobile robot to deliver medication, keys and other small items."
+image:
+  header: assets/images/posts/service-robot/line-follower-construction.png
+  teaser: assets/images/posts/service-robot/line-follower-construction.png
 header:
   teaser: assets/images/posts/service-robot/line-follower-construction.png
   overlay_image: /assets/images/posts/service-robot/line-follower-construction.png
-categories: Projects
+categories: Tech-Project
 tags:
+- Design-and/or-development
 - Robot
 - Autonomous system
 - Solidworks
@@ -16,6 +20,7 @@ tags:
 toc: true
 toc_sticky: true
 date: 2019-01-12
+
 gallery:
   - image_path: /assets/images/posts/service-robot/h-bridge.png
     alt: "Custom h-bridge"

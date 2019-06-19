@@ -2,14 +2,16 @@
 main:
   - title: "Home"
     url: /about/
-  - title: "...Projects..."
-    url: /projects/
-  - title: "...Categories..."
-    url: /categories/
+  #- title: "...Categories..."
+  #  url: /categories/
   - title: "Blog"
     url: /tags/
-  - title: "CV~Projects"
+  - title: "CV"
     url: /cv/
+  - title: "Skills"
+    url: /skills/
+  - title: "Portfolio"
+    url: /projects/
   - title: "Privacy Policy"
     url: /terms/
   - title: "Contact"

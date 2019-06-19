@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "contrast" #default" # "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Thomas"
+title                    : "Thomas Developer"
 title_separator          : "&#124;"
 name                     : &name "Thomas Carstens"
 description              : > # this means to ignore newlines until "baseurl:"
@@ -92,7 +92,7 @@ author:
   location         : "Based in Paris"
   email            : #"thomaxarstens@gmail.com"
   uri              : "thomascarstens.github.io"
-  home             : "thomascarstens.github.io"
+#  home             : "thomascarstens.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -188,7 +188,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Europe/Berlin
+timezone: Europe/Paris
 
 
 # Plugins (previously gems:)
@@ -225,9 +225,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-contacter:
+home:
   type: liquid
-  path: /contact/
+  path: /about/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
