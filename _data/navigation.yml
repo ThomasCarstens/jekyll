@@ -6,10 +6,12 @@ main:
   #  url: /categories/
   - title: "Blog"
     url: /tags/
+  - title: "Ventures"
+    url: /business/
   - title: "CV"
     url: /cv/
-  - title: "Skills"
-    url: /skills/
+  #- title: "Skills"
+  #  url: /skills/
   - title: "Portfolio"
     url: /projects/
   - title: "Privacy Policy"
