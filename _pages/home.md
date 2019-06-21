@@ -3,7 +3,7 @@ layout: archive
 permalink: /about/
 title: "Home"
 header:
-  overlay_image: /assets/images/fra_skyline.jpg
+  overlay_image: /assets/images/backgrounds/paris-skyline.jpg
 
 
 last_modified_at: 2019-06-11T11:22:24-05:00
@@ -15,9 +15,9 @@ toc: false
 I am a mechanical and mechatronic engineer by training and I also do software development.
 I have worked on projects designing and developing electro-mechanical systems as well as mobile apps.
 Right now I am studying robotics (Ecole EFREI, Master's in droides and drones, 2019-2021).
-Today's technology is growing fast, and my **preferred** strategy is to develop solutions that empower users.
+Today's technology is growing fast, and my preferred strategy is to develop solutions that empower users.
 My previous projects have done just that: an [everyday consumer product](https://thomascarstens.github.io/tech-project/braai-tongs/), a [user-centred online platform](https://thomascarstens.github.io/tech-project/App-for-education/),
-a [healthcare robot](https://thomascarstens.github.io/tech-project/Service-robot/). I write about many more projects [on my blog](https://thomascarstens.github.io/tags/), and I am working to build myself up as a tech entrepreneur in some [business ventures](https://thomascarstens.github.io/business/). While I'm in Paris, I am financing my studies with work as a developer.
+a [healthcare robot](https://thomascarstens.github.io/tech-project/Service-robot/). I write about personal projects and some tech news [on my blog](https://thomascarstens.github.io/tags/), and I am working to build myself up as a tech entrepreneur with [business ventures](https://thomascarstens.github.io/business/). While I'm in Paris, I am financing my studies with work as a developer.
 If you are interested in what I am doing please contact me
 
 {% for post in site.posts %}

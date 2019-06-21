@@ -1,10 +1,10 @@
 ---
 layout: single
 title: "Standing desk"
-excerpt: "A low-cost mobile robot to deliver medication, keys and other small items."
+excerpt: "Self-built standing desk, bolted onto the wall."
 header:
-  teaser: assets/images/posts/service-robot/line-follower-construction.png
-  overlay_image: /assets/images/posts/service-robot/line-follower-construction.png
+  teaser: assets/images/backgrounds/default.jpg
+  overlay_image: assets/images/backgrounds/default.jpg
 categories: Lifestyle
 tags:
 - Design+Development
@@ -28,4 +28,4 @@ gallery:
 
 ---
 
-Testing the waters here.
+Will be uploaded soon!

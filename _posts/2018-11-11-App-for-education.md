@@ -4,8 +4,8 @@ title: "App for education"
 excerpt: "A custom mobile app developed and implemented at the University of Cape Town."
 
 header:
-  teaser: assets/images/posts/app-for-education/app-pics/picture-and-text.jpeg
-  overlay_image: assets/images/posts/app-for-education/app-pics/picture-and-text.jpeg
+  teaser: assets/images/posts/app-for-education/framework.png
+  overlay_image: assets/images/posts/app-for-education/framework.png
 categories: Tech-Project
 tags:
 - Design-and/or-development

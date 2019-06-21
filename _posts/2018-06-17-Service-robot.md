@@ -3,11 +3,11 @@ layout: single
 title: "Service Robot"
 excerpt: "A low-cost mobile robot to deliver medication, keys and other small items."
 image:
-  header: assets/images/posts/service-robot/line-follower-construction.png
-  teaser: assets/images/posts/service-robot/line-follower-construction.png
+  header: assets/images/posts/service-robot/robot-header.png
+  teaser: assets/images/posts/service-robot/robot-header.png
 header:
-  teaser: assets/images/posts/service-robot/line-follower-construction.png
-  overlay_image: /assets/images/posts/service-robot/line-follower-construction.png
+  teaser: assets/images/posts/service-robot/robot-header.png
+  overlay_image: /assets/images/posts/service-robot/robot-header.png
 categories: Tech-Project
 tags:
 - Design-and/or-development

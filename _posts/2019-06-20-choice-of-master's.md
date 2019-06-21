@@ -3,8 +3,8 @@ layout: single
 title: "My choice of master's"
 excerpt: "Read this if you see yourself as a developer, but uncertain about choosing a career direction."
 header:
-  teaser: /assets/images/university-avenue.png
-  overlay_image: /assets/images/university-avenue.png
+  teaser: /assets/images/backgrounds/university-avenue.png
+  overlay_image: /assets/images/backgrounds/university-avenue.png
 categories: Other
 tags:
 toc: true
