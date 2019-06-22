@@ -82,20 +82,11 @@ gallery4:
 
 Supervised by Bruce Kloot of Mechanical Engineering UCT, I designed and developed a mobile application for enhanced interaction in engineering learning and I implemented within two undergraduate courses.
 
-{%
-include figure
-image_path="/assets/images/posts/app-for-education/framework.png"
-alt="Software framework"
-caption="Software framework"
-%}
-
 ## App Features
 
 I made a video where I display the functionality of the app.
 {% include video id="c5QMkaOH5u4" provider="youtube" %}
 
-Here are some more snapshots of the app.
-{% include gallery caption="Some snapshots of the app." %}
 
 ## Aim
 The goal of this project was to design an online learning space as an effective means for students to interact with tutors in the Dynamics 1 course. It was envisioned that through this process, the students are better included and empowered in their own learning process. The final product was an application called Dynamics App. Using the app, students can now post a question in a feed for tutors to be notified immediately. The app is currently on the Google Playstore, Testflight on the iStore (contact me for the invite link) as well as a webapp. Such a tool did not exist in the UCT Mechanical Engineering Department, and it is well suited to a course that requires of students to grasp and apply various kinetic and kinematic concepts in a short amount of time. I am looking to expand it in other university courses.
@@ -140,6 +131,13 @@ Developing this concept into an online space that can be implemented in the cour
 
 {%
 include figure
+image_path="/assets/images/posts/app-for-education/framework.png"
+alt="Software framework"
+caption="Software framework"
+%}
+
+{%
+include figure
 image_path="/assets/images/posts/app-for-education/firebase-functionality.png"
 alt="Firebase functionality"
 caption="Firebase functionality"
@@ -167,9 +165,15 @@ caption="Work Breakdown Structure"
 
 ## Summary
 I made a poster summarising the project.
+
+### Poster
 {%
 include figure
-image_path="/assets/images/posts/app-for-education/poster.png"
+image_path="/assets/images/posts/app-for-education/Poster.png"
 alt="poster"
 caption="Poster"
 %}
+
+### App screenshots
+Here are some more screenshots of the app.
+{% include gallery caption="Some snapshots of the app." %}
