@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "contrast" #default" # "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Thomas Developer"
+title                    : "![favicon](/assets/images/favicon.jpg){: .aligned-left} Thomas Developer"
 title_separator          : "&#124;"
 name                     : &name "Thomas Carstens"
 description              : > # this means to ignore newlines until "baseurl:"
@@ -91,7 +91,7 @@ author:
   bio              : "Developer"
   location         : "Based in Paris"
   email            : #"thomaxarstens@gmail.com"
-  uri              : "https://thomascarstens.github.io"
+  uri              : #"https://thomascarstens.github.io"
 #  home             : "thomascarstens.github.io"
   bitbucket        :
   codepen          :

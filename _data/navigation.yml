@@ -1,11 +1,9 @@
 # main links
 main:
   - title: "Home"
-    url: /about/
+    url: /tags/
   #- title: "...Categories..."
   #  url: /categories/
-  - title: "Blog"
-    url: /tags/
   - title: "Ventures"
     url: /business/
   - title: "CV"

@@ -36,7 +36,7 @@ gallery:
 
 ---
 
-# Service Robot
+# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Service Robot
 
 In hospitals, offices and other public spaces, medication, keys, and other small items might need to be carried from one place to the other.  In this scenario, people may prefer to focus on more difficult tasks, and a low cost  robot may carry small items.
 

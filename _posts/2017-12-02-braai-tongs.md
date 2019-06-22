@@ -25,7 +25,7 @@ gallery:
 
 ---
 
-# Braai tongs mechanical design
+# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Braai tongs mechanical design
 
 The braai is the traditional South African open-air barbecue (I'm proudly South African!). These braai tongs were designed to have LED illumination but also compete with tongs currently on the market.
 

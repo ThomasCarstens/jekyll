@@ -78,7 +78,7 @@ gallery4:
     title: "Some snapshots of the app"
 ---
 
-# App for an Engineering Undergraduate Course
+# ![favicon](/assets/images/favicon.jpg){: .aligned-left} App for an Engineering Undergraduate Course
 
 Supervised by Bruce Kloot of Mechanical Engineering UCT, I designed and developed a mobile application for enhanced interaction in engineering learning and I implemented within two undergraduate courses.
 

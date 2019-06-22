@@ -24,8 +24,10 @@ gallery:
     title: "Custom voltage regulator"
 
 ---
-# My choice of master's
+# ![drawing](/assets/images/favicon.jpg){: .aligned-left} My choice of master's
 Read this if you see yourself as a developer, but uncertain about choosing a career direction.
+
+
 
 Whoever works in tech development knows it’s difficult to do something other than an entry-level engineering job, e.g. maintenance and quality control. I did such things in internships and I wanted to enter job in robotics. This was simply not possible with this baseline degree, and unless I knew the right people, I realised that this ‘world of work’ is a little more complicated than what I expected.
 
