@@ -14,7 +14,7 @@ toc: false
 <i>Welcome to my blog and my showroom of my own projects.</i>
 
 <br>I am a mechanical and mechatronic engineer by training and I also do software development.
-I have worked on projects designing and developing electro-mechanical systems as well as mobile apps.
+I have worked on projects designing and developing electro-me chanical systems as well as mobile apps.
 Right now I am studying robotics (Ecole EFREI, Master's in droides and drones, 2019-2021).
 Today's technology is growing fast, and my preferred strategy is to develop solutions that empower users.
 My previous projects have explored this topic: an everyday consumer product, a user-centred online platform,
