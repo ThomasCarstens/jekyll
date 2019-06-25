@@ -1,49 +1,40 @@
 ---
 layout: single
-title: "My choice of master's"
+title: "Choosing a masters as a developer"
 excerpt: "Read this if you see yourself as a developer, but uncertain about choosing a career direction."
 header:
   teaser: /assets/images/backgrounds/university-avenue.png
   overlay_image: /assets/images/backgrounds/university-avenue.png
-categories: Other
+categories: Opinion
 tags:
 toc: true
 toc_sticky: true
 date: 2019-06-20
-gallery:
-  - image_path: /assets/images/posts/service-robot/h-bridge.png
-    alt: "Custom h-bridge"
-    title: "Custom h-bridge"
-
-  - image_path: /assets/images/posts/service-robot/line-sensors.png
-    alt: "Custom line-sensors"
-    title: "Custom line-sensors"
-
-  - image_path: /assets/images/posts/service-robot/voltage-regulator.png
-    alt: "Custom voltage regulator"
-    title: "Custom voltage regulator"
 
 ---
 # ![drawing](/assets/images/favicon.jpg){: .aligned-left} My choice of master's
-Read this if you see yourself as a developer, but uncertain about choosing a career direction.
+## Disclaimer: This post is based on my experience and in no way should be taken as fact.
 
+Read this if you see yourself as a developer, but uncertain about choosing a career direction. In this post I want to **outline my motivations** for the master's I ended up going for - a masters in "Droids and Drones" at Ecole EFREI, Paris. [Here's a link to their programme outline](https://eng.efrei.fr/graduate-programs/droids-and-drones/).
 
+## Some background
 
-Whoever works in tech development knows it’s difficult to do something other than an entry-level engineering job, e.g. maintenance and quality control. I did such things in internships and I wanted to enter job in robotics. This was simply not possible with this baseline degree, and unless I knew the right people, I realised that this ‘world of work’ is a little more complicated than what I expected.
+So I work in tech development. I basically do it because I like making stuff, or selling it, or finding stuff to make and sell. I did a degree in Mechanical and Mechatronic engineering. But now I want to study a master's degree (or graduate degree in the states). My main reason for studying further than my Bsc. Eng is to skill-up in a specific area of tech. There are other ways to skill up, sure. However, if I don't skill up, my options at this stage seem to be limited to technician-level engineering jobs.  I really didn't realise while I was studying that these would be my options. I have done internships in engineering spaces but I really didn't see myself spending the next, say, 10 years as an mechanical/mechatronics engineer. Skilling up during a master's could help me transition to a different area of tech. Chatting to previous graduates of my own degree made me realise that career transitions are more frequent than it appears.
 
-## Who is concerned by this?
-Those graduating as an engineering generalist specifically from [UCT](http://www.uct.ac.za), but uncertain about choosing a career direction for many possible reasons:
--	Confused about the current state of technology in the world
--	Even more confused about the future state of technology
--	Don’t know if engineering is really for you (there’s more of us than you think)
--	Unsure about your own skillset / what value you can contribute to the ‘world of work’
--	Want to choose a direction that’s financially stable in 5 years from now (at least!)
+I was unsure about my own skillset / what value I could contribute to the ‘world of work’. Is it like that for you too? I wrote a blogpost about ways to market yourself if you studied UCT's Bsc Eng Mechanical and Mechatronics. The post you're reading now focuses on my motivations for the master's I ended up going for.
 
-## What this is really about
-This is about my path after a Bachelors in Mechanical and Mechatronic Engineering. I spent the last 6 months applying to various places. It felt a lot like the kind of part-time job where I get paid months later. After heeding advice from previous graduates of my own degree, I realised many mechanical engineers struggle to find good master’s programmes, or even to know which direction to go in.
+## Initial motivations
 
-## The places I applied to
-Before I explain my career motivations: Here is a summary of my masters’ applications, in order of application.
+I spent the last 6 months applying to various places. My approach was that of a part-time job: plan it all out, and work on it every day. I started out with the following motivations.
+
+- I do not want to work in normal engineering jobs.
+-	I want to guarantee financial stability in 10 years from now (as a general timeframe).
+- I'd rather avoid having to specialise.
+-	I am confused about the current state of technology in the world.
+-	I'm even more confused about the future state of technology.
+
+## List of masters' applications
+Before I explain more detailed motivations: Here is a summary of my masters’ applications, in order of application.
 1. MIT Media Lab | **Media innovation** at the Responsive Environments Lab or the Fluid Interfaces Lab, 2y | rejected
 2. Paris Saclay Fablab | **digital fabrication**, 8months | aborted (no scholarship)
 3. Institute for Advanced Architecture of Catalonia (IAAC), Barcelona | **Robotics for construction**, 1y | accepted but aborted (expensive, competed unsuccessfully for scholarship, too specialised)
@@ -57,7 +48,7 @@ Before I explain my career motivations: Here is a summary of my masters’ appli
 10. EURECOM, Sofia-Antipolis | **telecommunications** as ‘Internet of Things’, 2y | rejected.
 
 
-# My motivations
+# Detailed motivations
 I decided I would do a Masters in a specific field as a way to develop a strong suit for employers (employers commonly refer to this as "T-shaped skills", [see article](https://trydesignlab.com/blog/how-to-get-hired-understand-if-youre-an-i-t-or-x-s/) ). Points that appealed to me for various Masters were:
 -	A 2 year programme | What can I realistically achieve in a year that can position me in the right place?
 -	Scholarship/bursary preferably | There are financial constraints

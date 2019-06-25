@@ -148,7 +148,7 @@ Promoting the online space among students as a tool for learning.
 
 {%
 include figure
-image_path="/assets/images/posts/app-for-education/app-advert.png"
+image_path="/assets/images/posts/app-for-education/App-Advert.png"
 alt="App advert"
 caption="App advert"
 %}
