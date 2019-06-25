@@ -21,7 +21,7 @@ Read this if you see yourself as a developer, but uncertain about choosing a car
 
 So I work in tech development. I basically do it because I like making stuff, or selling it, or finding stuff to make and sell. I did a degree in Mechanical and Mechatronic engineering. But now I want to study a master's degree (or graduate degree in the states). My main reason for studying further than my Bsc. Eng is to skill-up in a specific area of tech. There are other ways to skill up, sure. However, if I don't skill up, my options at this stage seem to be limited to technician-level engineering jobs.  I really didn't realise while I was studying that these would be my options. I have done internships in engineering spaces but I really didn't see myself spending the next, say, 10 years as an mechanical/mechatronics engineer. Skilling up during a master's could help me transition to a different area of tech. Chatting to previous graduates of my own degree made me realise that career transitions are more frequent than it appears.
 
-I was unsure about my own skillset / what value I could contribute to the ‘world of work’. Is it like that for you too? I wrote a blogpost about ways to market yourself if you studied UCT's Bsc Eng Mechanical and Mechatronics. The post you're reading now focuses on my motivations for the master's I ended up going for.
+I was unsure about my own skillset / what value I could contribute to the ‘world of work’. Is it like that for you too? I wrote a blogpost about ways to market yourself if you studied UCT's Bsc Eng Mechanical and Mechatronics: [link here](https://thomascarstens.github.io/opinion/bachelor-skills/). The post you're reading now focuses on my motivations for the master's I ended up going for.
 
 ## Initial motivations
 

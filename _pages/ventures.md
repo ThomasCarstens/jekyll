@@ -1,8 +1,12 @@
 ---
-title: Business ventures
-layout: category
+#title: Business ventures
+#layout: category
 permalink: /business/
-taxonomy: Venture-Project
+#taxonomy: Opinion
+layout: posts
+title: A Trip
+categories: [Opinion, Tech-Project]
+tags: [Android, Angular]
 
 header:
   overlay_image: /assets/images/backgrounds/default.jpg
@@ -15,3 +19,4 @@ last_modified_at: 2018-01-10T11:22:24-05:00
 
 Still getting this section up to speed.
 Watch this space :)
+https://mmistakes.github.io/minimal-mistakes/docs/configuration/

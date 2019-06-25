@@ -4,14 +4,12 @@ permalink: /about/
 title: "Home"
 header:
   overlay_image: /assets/images/backgrounds/paris-skyline.jpg
-
+classes: wide
 
 last_modified_at: 2019-06-11T11:22:24-05:00
 toc: false
 ---
-<h2>Hello</h2>
-
-<i>Welcome to my blog and my showroom of my own projects.</i>
+<h2>Welcome to my blog and my project showroom.</h2>
 
 I am a mechanical and mechatronic engineer by training and I also do software development.
 I have worked on projects designing and developing electro-me chanical systems as well as mobile apps.
