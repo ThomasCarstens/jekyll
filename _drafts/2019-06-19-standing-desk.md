@@ -28,4 +28,4 @@ gallery:
 
 ---
 # ![favicon](/assets/images/favicon.jpg){: .aligned-left} Standing desk
-Will be uploaded soon!
+Will be uploaded sooner!

@@ -15,27 +15,66 @@ date: 2019-06-20
 # ![drawing](/assets/images/favicon.jpg){: .aligned-left} My choice of master's
 ## Disclaimer: This post is based on my experience and in no way should be taken as fact.
 
-Read this if you see yourself as a developer, but uncertain about choosing a career direction. In this post I want to **outline my motivations** for the master's I ended up going for - a masters in "Droids and Drones" at Ecole EFREI, Paris. [Here's a link to their programme outline](https://eng.efrei.fr/graduate-programs/droids-and-drones/).
+In this post I want to **outline my motivations** for the master's I ended up going for: - a masters in ["Droids and Drones" at Ecole EFREI, Paris.](https://eng.efrei.fr/graduate-programs/droids-and-drones/).
+
+{%
+include figure
+image_path="assets/images/posts/choice-of-masters/learning-objectives.png"
+alt="detail of tong"
+caption="See [website program](https://eng.efrei.fr/graduate-programs/droids-and-drones/) and the school's [national ranking](https://www.efrei.fr/ecole-ingenieur/classements/)."
+%}
 
 ## Some background
 
-So I'm into tech development. I did a degree in Mechanical and Mechatronic engineering. But now I want to study a master's degree ('Graduate degree' in the States). My main reason for studying further than my Bsc. Eng is to work on projects that users can find useful. I like taking projects from an idea to a product that is used sustainably. Doing projects that show my mastery of the technical skills helps boost my profile. 
+So I'm into tech development. I did a degree in Mechanical and Mechatronic engineering. But now I want to study further so I can become financially independent.
 
-My degree in mechanical and mechatronic engineering was not set up to train me as a developer (even less as an entrepreneur). After this degree, I was aware that, unlike the engineer, the developer must learn ways to tackle the tech market. Chatting to previous graduates of my own degree made me realise that this particular career transition is more frequent than it appears. Feel free to reach out to me for advice.
+I like taking tech projects from an idea to a  sustainable development. My degree in mechanical and mechatronic engineering was geared toward industrial applications. I soon realised that I wanted to expand in a variety of different tech. Chatting to previous graduates of my own degree made me realise that this particular career transition is more frequent than it appears. There are actually many fields that take in mechanical engineers.
 
-I was unsure about my own skillset / what value I could contribute to the ‘world of work’. Is it like that for you too? I wrote a blogpost about ways to market yourself if you studied UCT's Bsc Eng Mechanical and Mechatronics: [link here](https://thomascarstens.github.io/opinion/bachelor-skills/). The post you're reading now focuses on my motivations for the master's I ended up going for.
+{%
+include figure
+image_path="assets/images/posts/choice-of-masters/mech-eng-outcomes.png"
+alt="detail of tong"
+caption="See [full vizualization](http://benschmidt.org/jobs/)."
+%}
 
-## Initial motivations
+After I graduated, I was unsure about my own skillset / what value I could contribute to the ‘world of work’. Is it like that for you too? I wrote a blogpost about ways to market yourself if you studied UCT's Bsc Eng Mechanical and Mechatronics: [link here](https://thomascarstens.github.io/opinion/bachelor-skills/).
 
-I spent the last 6 months applying to various places. My approach was that of a part-time job: plan it all out, and work on it every day. I started out with the following motivations.
+This post focuses on my motivations for the master's I ended up going for.
 
-- I do not want to work in normal engineering jobs.
--	I want to guarantee financial stability in 10 years from now (as a general timeframe).
-- I'd rather avoid having to specialise.
+# Initial motivations
+
+I spent the last 6 months applying to various places. My approach was that of a part-time job: plan it all out, and work on it every day.
+
+## Professional motivations
+I started out with the following motivations.
+
+- I do not want to work in an overly specialised job (eg. *engineering product developer*).
+-	I want to guarantee financial stability in 4 years from now.
+- I do however want to develop a strong suit in my field of choice.
+
+This was tough since:
 -	I am confused about the current state of technology in the world.
--	I'm even more confused about the future state of technology.
+-	I'm even more confused about the future state of technology (here's an article that [attempts to outline it](https://bigthink.com/technology-innovation/best-college-majors-future?rebelltitem=8#rebelltitem8).)
 
-## List of masters' applications
+First I looked at programs, then I made a decision about this bigger picture.
+
+
+## Contextual motivations
+I first selected opportunities that fit the following characteristics.
+
+-	In Europe | I have a French passport and some of the top tech universities are in Europe.
+- A place where I know the language | To better navigate more pressing problems like finding work.
+-	A 2 year programme | What can I realistically achieve in a year?
+-	Scholarship/bursary preferably | I used a combination of ScholarshipPortal and Scholars4Dev.
+
+I then proceeded to review the programs carefully.
+
+- Startup opportunities | This allows for business expansion: schools with a startup culture; cities with thriving incubators; cities that bring together many fields of tech.
+-	Program with industrial exposure | A program that incorporates work exposure is often well-informed about the industry, and so guarantees high employability.
+- Program that is project-based | Projects show others that I am able to learn and master certain skills.
+
+
+# List of masters' applications
 Before I explain more detailed motivations: Here is a summary of my masters’ applications, in order of application.
 1. MIT Media Lab | **Media innovation** at the Responsive Environments Lab or the Fluid Interfaces Lab, 2y | rejected
 2. Paris Saclay Fablab | **digital fabrication**, 8months | aborted (no scholarship)
@@ -51,14 +90,8 @@ Before I explain more detailed motivations: Here is a summary of my masters’ a
 
 
 # Detailed motivations
-I decided I would do a Masters in a specific field as a way to develop a strong suit for employers (employers commonly refer to this as "T-shaped skills", [see article](https://trydesignlab.com/blog/how-to-get-hired-understand-if-youre-an-i-t-or-x-s/) ). Points that appealed to me for various Masters were:
--	A 2 year programme | What can I realistically achieve in a year that can position me in the right place?
--	Scholarship/bursary preferably | There are financial constraints
--	Europe | For the experience of living independently overseas
--	Paris | I have a French passport and family residing in Paris (very fortunate)
--	Program with industrial exposure | It shows that the program caters to the needs of companies, and so the program has the most current technologies and high employability.
 
-That been said, I obviously had certain paths in mind based on my own experience.
+All being said, I obviously had certain paths in mind based on my own experience.
 
 ## 1. Landing in Boston, USA
 My goal is to ultimately study a Masters in Boston. The MIT Media Lab has caught my attention as a hub of technological development with a major human focus. Just landing in Boston is a move I really would like to make. As a result, I applied to MIT (in **media innovation**) and Emerson College (in **civic media design**). I was rejected from MIT (not really surprised) and Emerson College offered me a place, but when getting down to the costs, I realised it was too bold a career move.
@@ -66,31 +99,17 @@ My goal is to ultimately study a Masters in Boston. The MIT Media Lab has caught
 ## 2. Studying as soon as possible
 I really wanted to study something for free as soon as I could. As a result, I applied to Paris Saclay (in **digital fabrication**). Yet I did not receive a scholarship, so, no cigar.
 
-## 3. Skilling up in platform design
+## 3. Human-centered platforms
 My senior research project was in **app development**. I developed and implemented a custom mobile app at the University of Cape Town. I liked how much potential there is for impact in the daily life of people, i.e. to create a product that has direct implementational value and is scalable. As a result, I applied to Malmö University (in **interaction design**) and EIT Digital (in **human-computer interfaces**). For Malmö, I didn’t send my transcript in the right format and I was therefore ineligible. As for EIT Digital, I was accepted around the same time as other programmes and it caused me to think hard about platform design. I realised that it may be fun and somehow lucrative, but I was aware that it was not a very stable field to work in. After all, **app development** will not be booming in 5 years as it is now (according to software developers at my local tech hub, Codebridge). Students at EIT describe their internships as marred by difficulties to convince the company of the worth of conducting market research. That did not appeal to me.
 
-## 4. Skilling up in robotics
+## 4. Robotics
 My degree in **mechanical and mechatronic engineering** has placed me in a very priviledged position. The previous options are in many ways a transition from my studies. However, some options can further me as a technical engineer such as **autonomous systems** and **robotics**. As a result, I applied to IAAC (in **robotics for construction**), KTH (in **autonomous systems**) and EMARO+ (in **advanced robotics**). I was accepted in the first, but I accidentally messed up my application files for the next two (what a waste of time…). Careful consideration of the field of **robotics for construction** made me realise that it is in its nascent stages. There is actually very little guarantee of it being a stable field in a few years. According to reports by BCG and Bain, there is a major push to bring **robotics** on the construction site (**land-surveying** drones, **land-forming** robots) but the actual needs of construction companies have not been spelled out yet. This did not appeal to me.
 
-## 5. Doing tech entrepreneurship
+## 5. Tech entrepreneurship
 I have a passion for tech entrepreneurship. I decided that engineering programmes with a **management** component are particularly interesting. As a result, I applied to Polytechnique Paris (in **product development** and **business management**). I actually got in, and I was proud due to the school’s prestige in the local region. I however thought I should consult students of the programme because, you know, tuition alone costs 24000€. I managed to speak to current students. I realised that this programme trains students to be experts in a very specific **telecommunications technology** (Bluetooth, Wifi) and using this training, the second year then supports the students in developing their own **business/consulting** for a corporate. This is bold. It’s a huge risk. What if my business doesn’t make it 5 years from now? Two reports by Cisco (USA, mid-2018) and BCG (international, mid-2018, [see here](https://www.bcg.com/en-za/industries/technology-industries/making-jump-to-internet-of-things.aspx) ) list severe limitations for the **Internet of Things** to gain traction within business, but will it happen in the next 5 years? Or will my business struggle to get started? And in 5 years I will also be required to pay back the 24000€. Will I be able to rely on the network of alumni like Polytechnique proclaims? I know that a Master’s is in itself a bold move; but odds these high are a bit too uncertain for me.
 
-## 6. Skilling up in software development
-Following conversations with CEOS of **product and software development** companies, I realised that it would be very strategic to gain skills in **system development**. My approach, basically, is to gain even more experience as a developer, while learning the technologies involved in two of the most promising fields coming up in the next few years: in **robotics** and in **cloud computing**. As a result, I applied to EURECOM (in **telecommunications**) and Ecole EFREI (in **embedded systems**). I was cleanly rejected from the first. But I was accepted in to the second. So, all in all, what does EFREI offer me? I like it a lot. Here is the final summary.
+## 6. Data-driven forms of development
+Following conversations with CEOS of **product and software development** companies, I realised that it would be very strategic to gain skills in **system development**. My approach, basically, is to gain even more experience as a developer, while learning the technologies involved in two of the most promising fields coming up in the next few years: in **robotics** and in **cloud computing**. After all, the distinction between robotics and AI is blurring [as can be read here](https://bigthink.com/mike-colagrossi/whats-the-difference-between-ai-machine-learning-and-robotics). As a result, I applied to EURECOM (in **telecommunications**) and Ecole EFREI (in **embedded systems**). I was cleanly rejected from the first. But I was accepted in to the second. 
 
 # Summary
-Ecole EFREI seems like the most strategic direction for me, because I did decide I would do a Masters in a specific field as a way to develop a strong suit for employers (upskilling). In other words:
--	To establish myself as a capable robotics engineer via my projects and the French professional license offered by the school.
--	To search for work that can help finance my studies, and internships that can give me experience in the vast field of **robotics**.
--	To become much more familiar with the tech market over the next 2 years than I am now.
-
-In terms of time and money:
-- It’s a 2 year-programme (what I am looking for).
-- There is a bursary covering me for the next 5 years, and fortunately if I work as a robotic engineer I can pay them back under 2 years.
-- The program definitely has industrial exposure, with two 3-5month internships, and the school’s [local ranking](https://www.efrei.fr/ecole-ingenieur/classements/) is fascinating. Thus the program has the most current technologies and high employability.
-- Aside from all this… Living in a different culture (Paris rather than Cape Town) is going to teach me a huge lot. I’m going to love it. I can’t wait to reconnect with French family.
-
-## Other stuff you might be interested in
-There are many sites that are in the process of cataloguing all the scholarships that are out there. I used a combination of ScholarshipPortal and Scholars4Dev.
-
-Have you ever wondered which graduates transition to which fields? Schmidt’s Sankey made [an amazing visualization](http://benschmidt.org/jobs/) back in 2014.
+I am aware that I have a very limited amount of info about the tech market. With the information I have in the moment, Ecole EFREI currently seems the most strategic direction for me.
