@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Braai tongs mechanical design"
+title: "Braai tongs Product Design"
 excerpt: "These braai tongs were designed to have LED illumination but also compete with tongs currently on the market."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg

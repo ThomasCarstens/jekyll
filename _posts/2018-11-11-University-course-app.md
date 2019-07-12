@@ -64,13 +64,6 @@ caption="Poster"
 <a download href="{{ page.document_path }}">Get a pdf version here</a>
 <iframe src="{{ page.document_path }}" width="100%" height="1000px"></iframe>
 -->
-## Poster: project summary
-{%
-include figure
-image_path="/assets/images/posts/app-for-education/Poster.png"
-alt="poster"
-caption="Poster"
-%}
 
 ### Github Repo
 [Here it is.](https://github.com/ThomasCarstens/UniversityCourseApp)
