@@ -3,8 +3,8 @@
 #layout: category
 permalink: /business/
 #taxonomy: Opinion
-layout: posts
-title: A Trip
+layout: post
+title: Business Ventures
 categories: [Opinion, Tech-Project]
 tags: [Android, Angular]
 
