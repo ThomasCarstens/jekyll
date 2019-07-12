@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "App for education"
+title: "University Course App"
 excerpt: "A custom mobile app developed and implemented at the University of Cape Town."
 
 header:
