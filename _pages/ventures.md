@@ -3,7 +3,7 @@
 #layout: category
 permalink: /business/
 #taxonomy: Opinion
-layout: post
+layout: archive
 title: Business Ventures
 categories: [Opinion, Tech-Project]
 tags: [Android, Angular]
