@@ -26,7 +26,7 @@ document_path: /assets/docs/Thomas_Carstens_webCV_11june.pdf
 Supervised by Bruce Kloot of Mechanical Engineering UCT, I designed and developed a mobile application for enhanced interaction in engineering learning and I implemented within two undergraduate courses.
 
 ## Project Presentation
-I presented the project at UCT's Teaching and Learning Conference (July 2019). I added timestamps for specific sections (**App Features**, **Security Measures**...), and you can [view the video on Youtube:](https://youtu.be/sG-mX4-pG2E)
+I presented the project at UCT's Teaching and Learning Conference (July 2019). I added timestamps for specific sections (**App Features**, **Security Measures**...), but only if you [view the video on Youtube:](https://youtu.be/sG-mX4-pG2E)
 {% include video id="sG-mX4-pG2E" provider="youtube" %}
 
 
