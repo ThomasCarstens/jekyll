@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Choosing a masters as a developer"
-excerpt: "Read this if you see yourself as a developer, but uncertain about choosing a career direction."
+title: "From mechatronics to robotics"
+excerpt: "I outline my motivations for the master's programme I ended up studying."
 header:
   teaser: /assets/images/backgrounds/university-avenue.png
   overlay_image: /assets/images/backgrounds/university-avenue.png
@@ -13,9 +13,8 @@ date: 2019-06-20
 
 ---
 # ![drawing](/assets/images/favicon.jpg){: .aligned-left} My choice of master's
-## Disclaimer: This post is based on my experience and in no way should be taken as fact.
 
-In this post I want to **outline my motivations** for the master's I ended up going for: - a masters in ["Droids and Drones" at Ecole EFREI, Paris.](https://eng.efrei.fr/graduate-programs/droids-and-drones/).
+In this post I **outline my motivations** for the master's programme I ended up studying: - a masters in ["Droids and Drones" at Ecole EFREI, Paris.](https://eng.efrei.fr/graduate-programs/droids-and-drones/).
 
 I'm certain other engineers will benefit from reading about the path I took.
 
@@ -50,15 +49,15 @@ I spent the last 6 months applying to various places. My approach was that of a 
 ## Professional motivations
 I started out with the following motivations.
 
-- I do not want to work in an overly specialised job (eg. *engineering product developer*).
--	I want to guarantee financial stability in 4 years from now.
-- I do however want to develop a strong suit in my field of choice.
+- I do not want to work in a sequestered section of a company (eg. *quality control*).
+-	I want to have some guarantee of financial stability happen in the next 4 years.
+- I do want to develop a strong suit that will set me up in the next 30 years.
 
-This was tough since:
+Careers in tech are an appealing option. However, choosing one specific direction was tough since:
 -	I am confused about the current state of technology in the world.
--	I'm even more confused about the future state of technology (here's an article that [attempts to outline it](https://bigthink.com/technology-innovation/best-college-majors-future?rebelltitem=8#rebelltitem8).)
+-	I'm even more confused about the future state of technology (here's an article that [suggests promising study options](https://bigthink.com/technology-innovation/best-college-majors-future?rebelltitem=8#rebelltitem8).)
 
-First I looked at programs, then I made a decision about this bigger picture.
+Strategy: first I looked at available programs, then I made a decision about this bigger picture. It's a way of learning about my options as I go, although it's definitely high-risk.
 
 
 ## Contextual motivations

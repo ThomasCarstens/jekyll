@@ -62,7 +62,7 @@ caption="Flow chart diagram"
 I acted as Head of Mechanical Design and Integration of Circuitry.
 
 ### Limitations
-The main challenge was to have the final prototype cost less than R100 ($1.40), excluding the 8V battery. This meant that custom parts were to be built (namely custom electronics as shown below, custom coupling of gears instead of a gearmotor, and a custom robot frame).
+The main challenge was to have the final prototype cost less than R100 (+-$7), excluding the 8V battery. This meant that custom parts were to be built (namely custom electronics as shown below, custom coupling of gears instead of a gearmotor, and a custom robot frame).
 
 {%
 include figure
@@ -71,7 +71,7 @@ alt="Budget layout"
 caption="Budget layout"
 %}
 
-This project involved careful design and rapid prototyping of the chassis, requiring strong hands-on and practical ability.
+This project involved careful design and rapid prototyping of the chassis, requiring hands-on design and development.
 The design was further optimised for low cost as can be seen below.
 
 ## Mechanical design

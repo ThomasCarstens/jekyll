@@ -3,10 +3,10 @@
 #layout: category
 permalink: /business/
 #taxonomy: Opinion
-layout: archive
+layout: category
 title: Business Ventures
-categories: [Opinion, Tech-Project]
-tags: [Android, Angular]
+taxonomy: Ventures
+
 
 header:
   overlay_image: /assets/images/backgrounds/default.jpg
