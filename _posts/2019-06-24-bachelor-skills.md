@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "List of self-marketing techniques
+title: "List of self-marketing techniques"
 excerpt: "Read this if you studied UCT's Bsc Eng Mechanical and Mechatronics and you're finding it difficult to market yourself."
 header:
   teaser: /assets/images/backgrounds/university-avenue.png
