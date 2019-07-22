@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Self-marketing as an engineer"
+title: "List of self-marketing techniques
 excerpt: "Read this if you studied UCT's Bsc Eng Mechanical and Mechatronics and you're finding it difficult to market yourself."
 header:
   teaser: /assets/images/backgrounds/university-avenue.png
@@ -26,19 +26,36 @@ gallery:
 
 Read this if you studied UCT's Bsc Eng Mechanical and Mechatronics and you're finding it difficult to market yourself. After struggling myself, I have adopted **a set of approaches to self-marketing** that I think are worth sharing
 
-## Disclaimer: I cannot guarantee that any of these approaches will work.
-I still think they are worth sharing.
+Here's the general strategy. I meet said employer. I pull out my wallet and handover a card with my website url. That directs them here (hello!).
 
 ## Some background
 
-So I work in tech development. I did a degree in Mechanical and Mechatronic engineering. This definitely did not train me as a developer (even less as an entrepreneur), and I soon realised that it would be useful to find ways to promote myself (e.g. this website). It's quite important for a freelancer to have leads.
+So I work in tech development. To find work, I soon realised that it would be useful to find ways to promote myself (e.g. this website).
 
-It's difficult to choose how to sell yourself, because many factors were at play in the ever-changing world of tech. Are you also unsure about your next career move? I wrote a blogpost about the steps I took when I chose my career direction: [link here](https://thomascarstens.github.io/opinion/choice-of-master's/).
+The post you're reading now focuses on ways I chose to market myself as an engineer. So what should I put into my CV as a Bsc Eng(MMT)?
 
-The post you're reading now focuses on ways I chose to market myself as an engineer. I refined this approach when applying to 11 different Master's courses. So what should I put into my CV as a Bsc Eng(MMT)?
+# A. Personal branding
+An online profile is a great way to sell myself effectively.
 
-# A. Focusing on skills
-I have found that employers are interested in my skills, and put a focus especially on the technical skills when applying for technical roles. What skills do I have? The question I prefer is: What value can my skills contribute to the company?
+Sections:
+1. A personal website
+2. My business card
+
+## 1. A personal website
+My website unifies all the parts we'll mention now. This helps to simplify management of my professional profile.
+
+## 2. My business card
+My business card helps me stay in touch with people that I meet only once. I pull out my wallet and handover a card with my website url. That directs them here (hello!).
+
+
+# B. Focusing on skills
+A tech employer will very often look for specific skills (especially technical skills when applying for technical roles).
+What skills do I have? The question I prefer is: What value can my skills contribute to their company?
+
+Sections:
+1. Skills listed by subject/interest
+2. Skills utilized in concrete projects
+3. Skill keywords
 
 ## 1. Subjects on my transcript
 First I looked at what skills my degree offered me.
@@ -73,13 +90,16 @@ As an engineer working towards fast deadlines and tight budgets, it is useful to
 ### Social skills
 I have been asked about my team management skills (I described challenges that occur in team situations).
 
-# B. Focusing on experience
+# C. Focusing on experience
 Other than skills, there's a different approach to self-marketing: personal experience. This can be showcased for each project separately.
+Sections:
+1. List of portfolio projects
+2. List of jobs
+3. List of business ventures
 
 ## 1. Portfolio projects
 ### Experience in a particular field
 It is useful to showcase projects in the areas of interest of employers. For instance, a project in app development actually helped leverage me into robotic engineering. This type of experience helps show that I have knowledge about a certain field (T-skills) and that I am adaptable to further projects in said field.
-
 
 ### Decision-making experience
 A way to show good decision-making within a project is to write about the project's constraints, limitations, success areas, and offer recommendations. This type of experience helps show that I am reliable, accountable and professional. _Click on my Portfolio tab above to get an idea of how I went about it._
@@ -90,8 +110,11 @@ Associating myself with certain companies/commissions/work environments definite
 ## 3. Business ventures
 Business-type projects attest to the ways I take initiatives. _Check out my Ventures tab above to observe my approach._
 
-# C. Staying current
+# D. Staying current
 Showcasing knowledge of the latest changes in the market, in tech, in books of a wide range of topics indicates that I am highly adaptable.
+Sections:
+1. Writing about current tech news
+2. Testing the latest technologies
 
 ## 1. Writing about current tech news
 In my field of development, staying informed of the ever-changing tech market is critical - writing about it is a work of self-promotion. _I wrote a bit about this in the [Opinion section](https://thomascarstens.github.io/#opinion) of my blog._
@@ -99,12 +122,3 @@ In my field of development, staying informed of the ever-changing tech market is
 ## 2. Testing the latest technologies
 I believe that the most power tool for a developer is the ability to mix and match technologies. Once you've done and tested a technology, your ability to understand further implications of the application of the tech are beyond words.
 _I have a section in my blog called Lifestyle devoted to sharing my personal projects of new tech._
-
-# D. Personal branding
-By this I mean finding a way to sell yourself effectively to employers. I do believe that an online profile is a great way to bolster your reputation.
-
-## 1. A personal website
-My website unifies all the parts mentioned above. This helps to simplify management of my professional profile.
-
-## 2. My business card
-My business card helps me stay in touch with people that I meet only once. I pull out my wallet and handover a card with my website url. That directs them here (hello!).

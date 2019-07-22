@@ -7,9 +7,9 @@ header:
   overlay_image: assets/images/backgrounds/default.jpg
 categories: Lifestyle
 tags:
-- Design+Development
+- Craft
 - Woodwork
-- Consumer product
+- Everyday item
 toc: true
 toc_sticky: true
 date: 2019-01-12

@@ -7,9 +7,8 @@ header:
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
 categories: Tech-Project
 tags:
-- Design-and/or-development
+- Product design
 - Solidworks
-- Consumer product
 - Electro-mechanical
 toc: true
 toc_sticky: true
