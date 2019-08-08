@@ -1,17 +1,17 @@
 # main links
 main:
-  - title: "Home"
+  - title: "About"
     url: /about/
   #- title: "...Categories..."
   #  url: /categories/
-  - title: "Ventures"
-    url: /business/
-  - title: "CV"
+  - title: "Blog"
+    url: /myblog/
+  - title: "Portfolio"
     url: /cv/
   #- title: "Skills"
   #  url: /skills/
-  - title: "Portfolio"
-    url: /projects/
+  #- title: "Portfolio"
+  #  url: /projects/
   - title: "Privacy Policy"
     url: /terms/
   - title: "Contact"

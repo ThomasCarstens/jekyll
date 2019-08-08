@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: "CV followed by list of skills"
+title: "Skill-based portfolio"
 breadcrumbs: true
 permalink: /cv/
 share: true
@@ -11,6 +11,4 @@ header:
   overlay_image: /assets/images/backgrounds/university-avenue.png
   overlay_filter: rgba(0, 0, 0, 0.25)
 ---
-
-<a download href="{{ page.document_path }}">Get a pdf version here</a>
-<iframe src="{{ page.document_path }}" width="100%" height="1000px"></iframe>
+# Click on a skill to see the projects where I used this skill.
