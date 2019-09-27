@@ -4,6 +4,8 @@ main:
     url: /about/
   #- title: "...Categories..."
   #  url: /categories/
+  - title: "Latest"
+    url: /contact/
   - title: "Blog"
     url: /myblog/
   - title: "Portfolio"
@@ -14,5 +16,3 @@ main:
   #  url: /projects/
   - title: "Privacy Policy"
     url: /terms/
-  - title: "Contact"
-    url: /contact/
