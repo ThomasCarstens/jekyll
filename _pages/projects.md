@@ -1,8 +1,7 @@
 ---
-title: Portfolio
-layout: category
+title: Twitter
+layout: archive
 permalink: /projects/
-taxonomy: Tech-Project
 
 header:
   overlay_image: /assets/images/backgrounds/code.jpg
@@ -10,8 +9,8 @@ header:
 
 last_modified_at: 2018-01-10T11:22:24-05:00
 
-entries_layout: grid
-classes: wide
 ---
 
-# A showcase of my tech projects
+# My recent twitter activity
+
+<a class="twitter-timeline" href="https://twitter.com/thomaxarstens" data-tweet-limit="3">Loading my latest 3 tweets...</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

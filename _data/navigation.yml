@@ -4,7 +4,7 @@ main:
     url: /about/
   #- title: "...Categories..."
   #  url: /categories/
-  - title: "Latest"
+  - title: "Contact"
     url: /contact/
   - title: "Blog"
     url: /myblog/
@@ -12,7 +12,7 @@ main:
     url: /cv/
   #- title: "Skills"
   #  url: /skills/
-  #- title: "Portfolio"
-  #  url: /projects/
+  - title: "Twitter"
+    url: /projects/
   - title: "Privacy Policy"
     url: /terms/
