@@ -88,8 +88,8 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/profilepicture.jpg"
-  bio              : "Developer"
-  location         : "Based in Paris"
+  bio              : "Interested in embedded intelligence"
+  location         : #"Based in Paris"
   email            : #"thomaxarstens@gmail.com"
   uri              : #"https://thomascarstens.github.io"
 #  home             : "thomascarstens.github.io"

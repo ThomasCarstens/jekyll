@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "From mechatronics to robotics"
-excerpt: "I outline my motivations for the master's programme I ended up studying."
+title: "A review of master studies after mechatronics"
+excerpt: "I ended up studying embedded systems, after comparing diverse options."
 header:
   teaser: /assets/images/backgrounds/university-avenue.png
   overlay_image: /assets/images/backgrounds/university-avenue.png
@@ -12,11 +12,11 @@ toc_sticky: true
 date: 2019-06-20
 
 ---
-# ![drawing](/assets/images/favicon.jpg){: .aligned-left} My choice of master's
+# ![drawing](/assets/images/favicon.jpg){: .aligned-left} A review of master studies after mechatronics
 
-In this post I **outline my motivations** for the master's programme I ended up studying: - a masters in ["Droids and Drones" at Ecole EFREI, Paris.](https://eng.efrei.fr/graduate-programs/droids-and-drones/).
+In this post I **outline my motivations** for the master's programme I ended up studying: - a masters in embedded systems, ["Droides and drones" at Ecole EFREI, Paris.](https://eng.efrei.fr/graduate-programs/droids-and-drones/).
 
-I'm certain other engineers will benefit from reading about the path I took.
+Hopefully this helps other engineers who are thinking about their career.
 
 {%
 include figure

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "List of self-marketing techniques"
+title: "How I market myself online"
 excerpt: "Read this if you studied UCT's Bsc Eng Mechanical and Mechatronics and you're finding it difficult to market yourself."
 header:
   teaser: /assets/images/backgrounds/university-avenue.png
@@ -22,9 +22,9 @@ gallery:
     title: "Subject categories, Try 3"
 
 ---
-# ![drawing](/assets/images/favicon.jpg){: .aligned-left} Self-marketing as an engineer
+# ![drawing](/assets/images/favicon.jpg){: .aligned-left} How I market myself online
 
-Read this if you studied UCT's Bsc Eng Mechanical and Mechatronics and you're finding it difficult to market yourself. After struggling myself, I have adopted **a set of approaches to self-marketing** that I think are worth sharing
+I studied UCT's Bsc Eng Mechanical and Mechatronics and I found it difficult to market yourself online. I have adopted **a set of approaches to self-marketing** that I think others can benefit from.
 
 Here's the general strategy. I meet said employer. I pull out my wallet and handover a card with my website url. That directs them here (hello!).
 

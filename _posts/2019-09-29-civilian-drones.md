@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "An emerging market for civilian drone developers"
-excerpt: "I thought it useful to show how relevant drone developers are in the current state of the market."
+title: "An emerging market for civilian drones"
+excerpt: "I thought it useful to show how relevant drones are in the current state of the market."
 header:
   teaser: /assets/images/backgrounds/university-avenue.png
   overlay_image: /assets/images/backgrounds/university-avenue.png
@@ -22,11 +22,17 @@ gallery:
     title: "Subject categories, Try 3"
 
 ---
-# ![drawing](/assets/images/favicon.jpg){: .aligned-left} An emerging market for civilian drone developers
+# ![drawing](/assets/images/favicon.jpg){: .aligned-left} An emerging market for civilian drones
 
-Today, drones are disrupting various industries such as agriculture, telecom, oil and gas and public safety. I myself am studying drone development, and as such, I thought it useful to show how relevant drone developers are in the current state of the market.
+Today, drones are disrupting various industries such as agriculture, telecom, oil and gas and public safety. Drones are now also used in a wide range of civilian roles ranging from search and rescue, surveillance, traffic monitoring, weather monitoring and firefighting, to personal drones and business drone-based photography, as well as videography, agriculture and even delivery services. I myself am studying drone development, and as such, I thought it useful to show how relevant drones are in the current state of the market.
 
-Instead of showing the latest areas of application for drones, or listing the ways this market has finally become affordable, it may be more useful to follow the money. McKinsey reports that the drone delivery industry in the USA alone, grew from <span>$</span>40 million in 2012 to <span>$</span>1 billion in 2017.  Drone delivery appeals to retail companies since drones can deliver products directly to customers in the shortest time possible. For instance, tech giant Amazon seeks to advance its dominance in retail, and in so doing, this is another customer-centric strategy. Moreover, according to the New York Times, Amazon could also save half of its delivery costs within ten years.
+{%
+include figure
+image_path="assets/images/posts/civilian-drones/usecases.jpg"
+caption="40 uses for drones, as of 2019"
+%}
+
+First, let's follow the money. McKinsey reports that the drone delivery industry in the USA alone, grew from <span>$</span>40 million in 2012 to <span>$</span>1 billion in 2017.  Drone delivery appeals to retail companies since drones can deliver products directly to customers in the shortest time possible. For instance, tech giant Amazon seeks to advance its dominance in retail, and in so doing, CEO Jeff Bezos frames drones as a customer-centric strategy. Nevertheless, according to the New York Times, Amazon could also save half of its delivery costs within ten years.
 Amazon is a huge force to reckon with - it has a revenue of <span>$</span>233 billion (a third of the economy of Saudi Arabia) and makes a net income of <span>$</span>10 billion. Consider it this way: with such a fortune as this, and provided sufficient interest in the matter, Amazon can make commercial drone delivery a widespread reality. Amazon founded Prime Air three years ago already (2016), but earlier this year has announced its new delivery system, the Amazon Scout, for implementation in a number of cities in the US later this year. They are not alone: in China, JD.com is moving ahead with widespread deployment very quickly and Alibaba is advancing as well using drone delivery to support offshore islands. Google-affiliated company Wing has a focus in humanitarian applications of drones. Ultimately, the global market for commercial drones may reach over $127 billion annually.
 
 {%

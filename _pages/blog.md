@@ -14,8 +14,8 @@ header:
 last_modified_at: 2018-01-10T11:22:24-05:00
 ---
 
-# Hello! This is where you find my blogposts about my own projects, tech news, opinion pieces and even a weekly podcast below!
+# Podcast, completed projects, tech news, opinion pieces.
 
-### Mammoth Hour: my weekly podcast about the minutiae of our everyday lives
+### Mammoth Hour: to be updated by mid October
 
-<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/24061985&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/24061985&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
