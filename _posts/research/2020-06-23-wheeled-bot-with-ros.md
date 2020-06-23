@@ -1,14 +1,14 @@
 ---
 layout: single
-title: "Wheeled bot control"
-excerpt: "Analysing how to control a wheeled bot."
+title: "Open Source Functionality for Wheeled Bots with ROS"
+excerpt: "Open source functionality for wheeled bots with ROS."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
 categories: Research
 tags:
-- Gazebo
-- Control Theory
+- Wheeled-Bot
+- ROS
 toc: true
 toc_sticky: true
 date: 2020-06-23
@@ -23,7 +23,7 @@ gallery:
 
 ---
 
-# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Analysing how to control a wheeled bot.
+# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Open Source Functionality for Wheeled Bots with ROS
 **De Vinci Innovation Lab, ESILV: INFRASTRUCTURE | June 2020**
 
 # TO BE EDITED

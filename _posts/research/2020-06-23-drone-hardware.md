@@ -1,17 +1,17 @@
 ---
 layout: single
-title: "Xarm control"
+title: "Drone Hardware"
 excerpt: "An overview of drone hardware."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
 categories: Research
 tags:
-- Xarm
-- Robotic arm
+- Drone
+- Hardware
 toc: true
 toc_sticky: true
-date: 2017-12-02
+date: 2020-06-23
 gallery:
   - image_path: /assets/images/posts/braai-tongs/left-attached.jpg
     alt: "Braai tongs attached"

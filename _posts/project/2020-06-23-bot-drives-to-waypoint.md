@@ -1,17 +1,18 @@
 ---
 layout: single
-title: "Wheeled bot control"
-excerpt: "Analysing how to control a wheeled bot."
+title: "BotDrivesToWaypoint"
+excerpt: "A custom wheeled robot in Gazebo's postoffice world (Project undergoing)."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
-categories: Research
+categories: Project
 tags:
+- Wheeled-Bot
+- ROS
 - Gazebo
-- Control Theory
 toc: true
 toc_sticky: true
-date: 2020-06-23
+date: 2017-12-02
 gallery:
   - image_path: /assets/images/posts/braai-tongs/left-attached.jpg
     alt: "Braai tongs attached"
@@ -23,13 +24,13 @@ gallery:
 
 ---
 
-# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Analysing how to control a wheeled bot.
+# ![favicon](/assets/images/favicon.jpg){: .aligned-left} BotDrivesToWaypoint
 **De Vinci Innovation Lab, ESILV: INFRASTRUCTURE | June 2020**
 
 # TO BE EDITED
 
 ## Aim
-This project consisted of redesigning illuminated braaitongs to be market-competitive, but also for elegance and practicality.
+A custom autonomous wheeled robot in Gazebo's postoffice world.
 
 {%
 include figure

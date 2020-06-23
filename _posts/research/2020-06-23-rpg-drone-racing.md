@@ -1,17 +1,17 @@
 ---
 layout: single
-title: "Wheeled bot control"
-excerpt: "Analysing how to control a wheeled bot."
+title: "RPG Drone Racing"
+excerpt: "An overview of the RPG drone racing simulator."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
 categories: Research
 tags:
-- Gazebo
-- Control Theory
+- Drone
+- Simulator
 toc: true
 toc_sticky: true
-date: 2020-06-23
+date: 2017-12-02
 gallery:
   - image_path: /assets/images/posts/braai-tongs/left-attached.jpg
     alt: "Braai tongs attached"
@@ -23,7 +23,7 @@ gallery:
 
 ---
 
-# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Analysing how to control a wheeled bot.
+# ![favicon](/assets/images/favicon.jpg){: .aligned-left} RPG Drone Racing
 **De Vinci Innovation Lab, ESILV: INFRASTRUCTURE | June 2020**
 
 # TO BE EDITED

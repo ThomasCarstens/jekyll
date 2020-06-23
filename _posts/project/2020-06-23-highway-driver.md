@@ -1,17 +1,18 @@
 ---
 layout: single
-title: "Xarm control"
-excerpt: "An overview of the Xarm API and how to control it."
+title: "Autonomous Highway Driver Project"
+excerpt: "A project where I optimise trajectory planning algorithms."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
-categories: Tech-Project
+categories: Project
 tags:
-- Xarm
-- Robotic arm
+- Wheeled-Bot
+- C++
+- Trajectory Planning
 toc: true
 toc_sticky: true
-date: 2017-12-02
+date: 2020-06-23
 gallery:
   - image_path: /assets/images/posts/braai-tongs/left-attached.jpg
     alt: "Braai tongs attached"
@@ -23,13 +24,13 @@ gallery:
 
 ---
 
-# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Xarm control
+# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Autonomous Highway Driver Project
 **De Vinci Innovation Lab, ESILV: INFRASTRUCTURE | June 2020**
 
 # TO BE EDITED
 
 ## Aim
-This project consisted of redesigning illuminated braaitongs to be market-competitive, but also for elegance and practicality.
+A project where I optimise drone control algorithms.
 
 {%
 include figure

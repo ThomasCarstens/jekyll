@@ -5,7 +5,7 @@ excerpt: "Individual project to design a domestic handheld product."
 header:
   teaser: /assets/images/backgrounds/university-avenue.png
   overlay_image: /assets/images/backgrounds/university-avenue.png
-categories: Tech-Project
+categories: Project
 tags:
 - Product design
 - Solidworks

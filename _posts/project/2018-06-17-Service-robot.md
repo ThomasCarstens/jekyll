@@ -8,7 +8,7 @@ image:
 header:
   teaser: assets/images/posts/service-robot/robot-header.png
   overlay_image: /assets/images/posts/service-robot/robot-header.png
-categories: Tech-Project
+categories: Project
 tags:
 - Design-and/or-development
 - Robot

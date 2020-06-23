@@ -6,7 +6,7 @@ excerpt: "A custom mobile app developed and implemented at the University of Cap
 header:
   teaser: assets/images/posts/app-for-education/framework.png
   overlay_image: assets/images/posts/app-for-education/framework.png
-categories: Tech-Project Ventures
+categories: Project
 tags:
 - Design-and/or-development
 - Mobile app

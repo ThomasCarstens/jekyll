@@ -1,18 +1,18 @@
 ---
 layout: single
-title: "Braai tongs Product Design"
-excerpt: "These braai tongs were designed to have LED illumination but also compete with tongs currently on the market."
+title: "Drone PID Control Project"
+excerpt: "A project where I optimise drone control algorithms."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
-categories: Tech-Project
+categories: Project
 tags:
-- Product design
-- Solidworks
-- Electro-mechanical
+- Drone
+- C++
+- Control Theory
 toc: true
 toc_sticky: true
-date: 2017-12-02
+date: 2020-06-23
 gallery:
   - image_path: /assets/images/posts/braai-tongs/left-attached.jpg
     alt: "Braai tongs attached"
@@ -24,12 +24,13 @@ gallery:
 
 ---
 
-# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Braai tongs mechanical design
-**Mechanical Engineering Dept, UCT: MEC3072F COURSE | June 2017**
-**Time-bound:** 1 month design in a group of 3.
+# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Drone PID Control Project
+**De Vinci Innovation Lab, ESILV: INFRASTRUCTURE | June 2020**
+
+# TO BE EDITED
 
 ## Aim
-This project consisted of redesigning illuminated braaitongs to be market-competitive, but also for elegance and practicality.
+A project where I optimise drone control algorithms.
 
 {%
 include figure

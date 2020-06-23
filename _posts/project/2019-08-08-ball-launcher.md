@@ -7,7 +7,7 @@ header.image: assets/images/posts/ball-launcher/full.jpg
 header:
   teaser: assets/images/posts/ball-launcher/full.jpg
   overlay_image: assets/images/posts/ball-launcher/full.jpg
-categories: Tech-Project
+categories: Project
 toc: true
 toc_sticky: true
 date: 2019-05-31
