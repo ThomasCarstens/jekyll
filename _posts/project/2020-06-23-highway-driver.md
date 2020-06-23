@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Autonomous Highway Driver Project"
+title: "Car Polynomial Trajectory Planner"
 excerpt: "A project where I optimise trajectory planning algorithms."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
@@ -24,7 +24,7 @@ gallery:
 
 ---
 
-# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Autonomous Highway Driver Project
+# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Car Polynomial Trajectory Planner
 **De Vinci Innovation Lab, ESILV: INFRASTRUCTURE | June 2020**
 
 # TO BE EDITED

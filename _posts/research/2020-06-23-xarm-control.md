@@ -5,7 +5,7 @@ excerpt: "An overview of the Xarm API and how to control it."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
-categories: Tech-Project
+categories: Research
 tags:
 - Xarm
 - Robotic arm
