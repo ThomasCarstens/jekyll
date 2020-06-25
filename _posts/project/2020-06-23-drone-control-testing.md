@@ -39,8 +39,10 @@ alt="Left closed"
 caption="See how far the tongs close!"
 %}
 
-At its simplest, an autonomous drone is one that moves in all autonomy.  It would have to plan a trajectory, for everything leading up to the creation of a trajectory, and then follow the plan. This project is about Trajectory Following.
-Is it really that hard to follow a trajectory?
+At its simplest, an *autonomous* drone is one that moves in all autonomy.  It would have to plan a trajectory, for everything leading up to the creation of a trajectory, and then follow the plan. This project is about **Trajectory Following**.
+
+_Is it really that hard to follow a trajectory?_
+
 First, a word about Trajectory Following. In this tutorial, we are just given a sequence of points, waypoints for the drone, so it just needs to move from one point to the next. It’s easy to make a drone move from a to b if all it takes is a very precise motion forward. As long as the drone is +- 5cm from the target point, we’re satisfied.
 But now what if we want to build up speed? There is a number of things that can go wrong. Perhaps the inertia of the drone slows it down, because the motor thrust is calculated on an estimation of the drone’s inertia and not the actual inertia (a model error). If it slows down unexpectedly it won’t end up very precisely on the target. Another problem: after tuning the drone to hover straight, it still has a slight rotation as it moves forward (another model error).  Over 10m, the drone might arc away even when we ask it to move straight.
 It makes sense that these are hiccups between our virtual model and the real world. We can eliminate many of these hiccups with Control Theory. In this case, negative feedback loops. The basic principle here is that the drone can observe its motion and grade specific information against the required motion. For example: if the camera tilts to the right, it knows to apply a yaw velocity of gamma rad/s to the left. If the motion is slow enough, all it takes is moving the same amount as the difference between the target point and where on the camera we expect the target point to be. Basing ourselves on this position error and transforming it to the required thrust gives us a proportional controller. You can imagine a slow drone moving from a to b in this way.
