@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Coding bot behaviours based on ROS Sensor input"
-excerpt: "A custom wheeled robot in Gazebo's postoffice world (Project undergoing)."
+title: "Car Behaviour Planning with ROS and Gazebo"
+excerpt: "A custom wheeled robot in Gazebo's postoffice world."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
@@ -24,7 +24,7 @@ gallery:
 
 ---
 
-# ![favicon](/assets/images/favicon.jpg){: .aligned-left} BotDrivesToWaypoint
+# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Car Behaviour Planning with ROS and Gazebo
 **De Vinci Innovation Lab, ESILV: INFRASTRUCTURE | June 2020**
 
 # TO BE EDITED
