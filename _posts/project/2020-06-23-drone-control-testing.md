@@ -80,7 +80,7 @@ Editing the TILT coordinates]
 
 ## Can’t we avoid this issue by rearranging the equations?
 
-Exactly, welcome to the project!
+Exactly. Welcome to the project.
 
 Since there’s no perfect PID controller, we build up a controller iteratively using different scenarios. It can take into account:
 - The nature of the trajectory
