@@ -5,7 +5,7 @@ excerpt: "An introduction to drone control algorithms."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
-categories: Project
+categories: Simulation
 tags:
 - Drone
 - C++

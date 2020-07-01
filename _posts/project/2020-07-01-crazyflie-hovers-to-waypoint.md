@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "Drone Hardware-in-the-loop with ROS and Gazebo"
-excerpt: "A custom wheeled robot in Gazebo's postoffice world."
+title: "Crazyflie HITL with ROS and Gazebo"
+excerpt: "A crazyflie drone flies to a waypoint in Gazebo's postoffice world."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
-categories: Project
+categories: Crossreality
 tags:
 - Crazyflie
 - ROS
@@ -24,17 +24,11 @@ gallery:
 
 ---
 
-# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Car Behaviour Planning with ROS and Gazebo
+# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Crazyflie HITL with ROS and Gazebo
 **De Vinci Innovation Lab, ESILV: INFRASTRUCTURE | June 2020**
 
 # TO BE EDITED
+This and other tutorials are under construction for September 2020.
 
 ## Aim
-A custom autonomous wheeled robot in Gazebo's postoffice world.
-
-{%
-include figure
-image_path="/assets/images/posts/braai-tongs/left-closed.jpg"
-alt="Left closed"
-caption="See how far the tongs close!"
-%}
+A crazyflie drone flies to a waypoint in Gazebo's postoffice world.

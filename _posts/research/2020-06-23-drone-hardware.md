@@ -72,6 +72,15 @@ Battery-motors-frame take up 50-70% of the full drone weight. This will help get
 ### Rx and Tx radio components
 Weight:
 ### Power Distribution Board, Landing gear
+### Battery Connectors
+Soldering battery connectors can be a real pain, so it is a good idea to try find a battery connector that you like, and stick to it. That allows you to swap batteries easily, and if you decide to build another drone in the future you can use the same batteries. Common connectors include Deans/Tplug, XT60, and also EC3 connectors.
+
+## Frame
+The drone frame will affect drone dynamics, including speed
+
+### How do I get the drone to fly faster?
+Tilting a craft sideways provides the thrust for movement, tilt too far and you lose the fight against gravity.
+https://dronerush.com/how-fast-can-a-drone-fly-science-of-flight-10953/
 
 ## Motors
 
@@ -148,6 +157,13 @@ Factors that will sap energy:
 ### Bursts of power
 
 ### Selecting ESCs when selecting the battery: iteration
+Three things that tend to increase your current draw and put more stress on your ESC:
+
+- Higher motor KV
+- Larger motor size (stator width and height)
+- Heavier propellers (length and pitch)
+
+https://oscarliang.com/choose-esc-racing-drones/
 The firmware that an ESC can use is dependent on the hardware.
 ESC firmware is the software running on every ESC, which determines the ESC’s performance, which protocols are supported, and what configuration interface can be used.
 
@@ -167,3 +183,6 @@ https://oscarliang.com/esc-firmware-protocols/
 
 # Balancing the drone's center of gravity
 The physical size of drone, and especially of battery, can affect the center of gravity.
+
+# How to maintain the Lipo battery?
+See here: https://www.genstattu.com/bw
