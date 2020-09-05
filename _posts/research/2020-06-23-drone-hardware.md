@@ -63,7 +63,7 @@ Where to start? Selecting components serves to balance drone **power and perform
 However these vary depending on the specifications of all our components.
 Ultimately, this is an **iterative process**.
 
-
+# The conceptual diagram
 # Balancing thrust to weight vs the energy needs of the drone
 Battery-motors-frame take up 50-70% of the full drone weight. This will help get a first working estimate.
 99% of the battery is used up by motors. Once our motors are selected, we look to satisfy the energy needs of the drone

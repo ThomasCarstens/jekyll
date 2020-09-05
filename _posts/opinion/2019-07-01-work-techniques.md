@@ -16,6 +16,16 @@ date: 2019-06-20
 We all employ a set of techniques to work.
 Some use certain techniques over others.
 
+
+# My philosophy regarding tutorials
+## You need to search it up yourself
+Provided the right link, you will find what you need.
+[see FPV tutorial]
+## A conceptual map of my needs and how I met them
+I discover the field by attempting to respond to my own questions.
+[see ROS tutorial]
+## Organising information in an easy and clear manner
+
 # While researching
 Searching for information is now "easier than ever". But it's a challenge to find the information we need.
 ## The importance of synthesizing information

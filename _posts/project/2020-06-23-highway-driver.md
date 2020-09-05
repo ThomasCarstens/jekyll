@@ -5,7 +5,7 @@ excerpt: "A project where I optimise trajectory planning algorithms."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
-categories: Simulation
+categories: Simulators for performance
 tags:
 - Wheeled-Bot
 - C++

@@ -1,15 +1,14 @@
 ---
 layout: single
-title: "Crazyflie HITL with ROS and Gazebo"
-excerpt: "A crazyflie drone flies to a waypoint in Gazebo's postoffice world."
+title: "Crazyswarm: basic setup"
+excerpt: "An overview of the Crazyswarm library."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
-categories: Drone programming
+categories: Research
 tags:
-- Crazyflie
-- ROS
-- Gazebo
+- Optitrack
+- Motion capture
 toc: true
 toc_sticky: true
 date: 2020-06-23
@@ -24,15 +23,10 @@ gallery:
 
 ---
 
-# ![favicon](/assets/images/favicon.jpg){: .aligned-left} Crazyflie HITL with ROS and Gazebo
+# ![favicon](/assets/images/favicon.jpg){: .aligned-left} An overview of the Crazyswarm library.
 **De Vinci Innovation Lab, ESILV: INFRASTRUCTURE | June 2020**
 
 # TO BE EDITED
-This and other tutorials are under construction for September 2020.
 
 ## Aim
-A crazyflie drone flies to a waypoint in Gazebo's postoffice world.
-
-# ROS Networking setup
-## crazyflie-ros package installation
-## First drone setup
+An overview of the Crazyswarm library.

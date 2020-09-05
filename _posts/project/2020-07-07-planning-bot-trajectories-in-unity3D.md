@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "Drone programming: Hello World"
-excerpt: "The Crazyflie 2.1 drone flies a predefined trajectory."
+title: "Planning Unity3D Bot trajectories"
+excerpt: "How to plan simple trajectories for videogame bots."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
-categories: Drone programming
+categories: Simulators for performance
 tags:
 - Crazyflie
 - ROS
