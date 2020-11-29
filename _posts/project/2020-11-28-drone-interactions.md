@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Milk frother Product Design"
+title: "Drone interactions"
 excerpt: "Individual project to design a domestic handheld product."
 header:
   teaser: /assets/images/backgrounds/university-avenue.png
