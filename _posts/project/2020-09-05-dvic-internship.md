@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Internship at the DVIC"
-excerpt: "Ping pong ball launcher: an example of fast prototyping."
+excerpt: "Developing a flight test platform at the DVIC."
 
 header.image: assets/images/posts/dvic_internship/internship.PNG
 header:
@@ -32,5 +32,10 @@ gallery2:
 
 document_path1: /assets/docs/Internship_DVIC_report_2020.pdf
 ---
+
+# Internship at the DVIC
+
+I am currently completing a rather unique Master’s degree where I have been given the liberty to work on a large project involving a drone swarm and augmented reality. As part of the De Vinci Innovation Center (Paris, France), I spent most of the last year developing a flight test platform, and then developing interaction between drones, interaction with virtual objects and with hand tracking commands. I started this platform from scratch, putting together a motion capture system, and putting in place Crazyflie drones. More about the project in this report.
+
 
 <iframe src="{{ page.document_path1 }}" width="100%" height="1000px"></iframe>
