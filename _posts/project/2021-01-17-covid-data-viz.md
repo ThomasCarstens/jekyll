@@ -33,14 +33,17 @@ gallery2:
 
 {% include gallery id="gallery" caption="Was the military presence worth it?" %}
 
-My statistical analysis links up human mobility in South Africa to surges in infection.  I wish to have a data-driven idea whether significant human movement affects covid infections significantly. Using the Google Mobility Reports, I will be comparing the spikes in Virus infections to human movement in South Africa between 1 December 2020 and 29 December 2020.
+My statistical analysis links up human mobility in South Africa to surges in infection.  I wish to have a data-driven idea whether significant human movement affects Covid infections significantly. Using the Google Mobility Reports, I will be comparing the spikes in Virus infections to human movement in South Africa between 1 December 2020 and 29 December 2020.
 
-{% include gallery id="gallery" caption="Deaths in South Africa due to Covid-19 over December 2020" %}
+## Deaths in South Africa due to Covid-19 over December 2020
+
+{% include gallery id="gallery" caption="Data from 2019-nCoV Data Repository and Dashboard for South Africa" %}
 
 My hypothesis H0 is: there is no significant correlation between human movement and virus propagation in South Africa of such period.
 
+## Mobility Trends for South Africans over December 2020
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/4990512"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/4990512" caption="sup?"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 This analysis is done on a national level, and seen the incubation time for the virus is roughly 10 days, the15 days prior to infection are examined for significant levels of human movement. Said otherwise, for each significant level of infection, we determine how often over 15 days the movement exceeded set bounds (in number of days). This information will be analysed in a final Poisson curve to determine if the spikes are in fact correlated or they are two random patterns.
 
