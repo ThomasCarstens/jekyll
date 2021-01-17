@@ -43,7 +43,7 @@ My hypothesis H0 is: there is no significant correlation between human movement 
 
 ## Mobility Trends for South Africans over December 2020
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/4990512" ><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/4990512"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 This analysis is done on a national level, and seen the incubation time for the virus is roughly 10 days, the15 days prior to infection are examined for significant levels of human movement. Said otherwise, for each significant level of infection, we determine how often over 15 days the movement exceeded set bounds (in number of days). This information will be analysed in a final Poisson curve to determine if the spikes are in fact correlated or they are two random patterns.
 
