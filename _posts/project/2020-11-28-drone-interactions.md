@@ -35,3 +35,5 @@ It goes without saying that my tutorials present the structure of this platform 
 {% include gallery id="gallery" layout="fourth" class="full" caption="" %}
 
 {% include gallery id="gallery2" layout="fourth" class="full" caption="" %}
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/4990512"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
