@@ -29,21 +29,27 @@ gallery2:
     alt: "Police in the streets of "
     title: "Subject categories, Try 2"
 ---
-# Deaths in South Africa
+# Does human movement affects covid infections significantly?
 
 My statistical analysis links up human mobility in South Africa to surges in infection.  I wish to have a data-driven idea whether significant human movement affects covid infections significantly. Using the Google Mobility Reports, I will be comparing the spikes in Virus infections to human movement in South Africa between 1 December 2020 and 29 December 2020.
 
-{% include gallery id="gallery" caption="Deaths in South Africa due to Covid-19 over December 2020" %}
+## 1. infections
 
+### Deaths in South Africa due to Covid-19 over December 2020
+
+{% include gallery id="gallery" caption="Adapted from the Coronavirus COVID-19 (2019-nCoV) Data Repository and Dashboard for South Africa (1)" %}
+
+### Simple premise
 My hypothesis H0 is: there is no significant correlation between human movement and virus propagation in South Africa of such period.
-
 
 {% include gallery id="gallery" caption="Was the military presence worth it?" %}
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/4990512"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+## The virus incubation time
 This analysis is done on a national level, and seen the incubation time for the virus is roughly 10 days, the15 days prior to infection are examined for significant levels of human movement. Said otherwise, for each significant level of infection, we determine how often over 15 days the movement exceeded set bounds (in number of days). This information will be analysed in a final Poisson curve to determine if the spikes are in fact correlated or they are two random patterns.
 
+## A more significant approach
 <strong># TEMPORARY</strong>
 - Covid infections are analysed according to the gradient in the number of infections as a rough measure of infectability. Significant levels of infection are those that cross a certain threshold in gradient.
 

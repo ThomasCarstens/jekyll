@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Data visualizations for COVID in South Africa"
+title: "test"
 excerpt: "Handin for the DVIC Data Visualisation Course, Dec '20."
 header:
   teaser: /assets/images/posts/covid-data-viz/police.png
@@ -25,9 +25,9 @@ gallery2:
   - image_path: /assets/images/posts/covid-data-viz/police.png
     alt: "Police in the streets of "
     title: "Subject categories, Try 2"
-    - image_path: /assets/images/posts/covid-data-viz/military_covid.png
-      alt: "Police in the streets of "
-      title: "Subject categories, Try 2"
+  - image_path: /assets/images/posts/covid-data-viz/military_covid.png
+    alt: "Police in the streets of "
+    title: "Subject categories, Try 2"
 ---
 # Deaths in South Africa
 
