@@ -3,8 +3,8 @@ layout: single
 title: "Data visualizations for COVID in South Africa"
 excerpt: "Handin for the DVIC Data Visualisation Course, Dec '20."
 header:
-  teaser: /assets/images/posts/covid-data-viz/police.png
-  overlay_image: /assets/images/posts/covid-data-viz/police.png
+  teaser: /assets/images/posts/covid-data-viz/police.jpg
+  overlay_image: /assets/images/posts/covid-data-viz/police.jpg
 
 categories: Project
 
@@ -22,7 +22,7 @@ gallery:
 
 
 gallery2:
-  - image_path: /assets/images/posts/covid-data-viz/police.png
+  - image_path: /assets/images/posts/covid-data-viz/police.jpg
     alt: "Police in the streets of Alexandra Township, made up of over 20000 informal dwellings."
     title: "Subject categories, Try 2"
   - image_path: /assets/images/posts/covid-data-viz/military_covid.png
