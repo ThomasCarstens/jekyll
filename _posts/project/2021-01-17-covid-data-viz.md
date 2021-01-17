@@ -11,6 +11,7 @@ categories: Project
 tags:
 - Data visualisation
 
+tags:
 toc: true
 toc_sticky: false
 date: 2021-01-17
@@ -28,19 +29,16 @@ gallery2:
       alt: "Police in the streets of "
       title: "Subject categories, Try 2"
 ---
-# Is there evidence that mobility affects surges in COVID infection?
+# Deaths in South Africa
 
-{% include gallery id="gallery" caption="Was the military presence worth it?" %}
+My statistical analysis links up human mobility in South Africa to surges in infection.  I wish to have a data-driven idea whether significant human movement affects covid infections significantly. Using the Google Mobility Reports, I will be comparing the spikes in Virus infections to human movement in South Africa between 1 December 2020 and 29 December 2020.
 
-My statistical analysis links up human mobility in South Africa to surges in infection.  I wish to have a data-driven idea whether significant human movement affects Covid infections significantly. Using the Google Mobility Reports, I will be comparing the spikes in Virus infections to human movement in South Africa between 1 December 2020 and 29 December 2020.
-
-## Deaths in South Africa due to Covid-19 over December 2020
-
-{% include gallery id="gallery" caption="Data from 2019-nCoV Data Repository and Dashboard for South Africa" %}
+{% include gallery id="gallery" caption="Deaths in South Africa due to Covid-19 over December 2020" %}
 
 My hypothesis H0 is: there is no significant correlation between human movement and virus propagation in South Africa of such period.
 
-## Mobility Trends for South Africans over December 2020
+
+{% include gallery id="gallery" caption="Was the military presence worth it?" %}
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/4990512"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
