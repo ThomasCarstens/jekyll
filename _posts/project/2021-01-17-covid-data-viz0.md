@@ -23,11 +23,11 @@ gallery:
 
 gallery2:
   - image_path: /assets/images/posts/covid-data-viz/police.png
-    alt: "Police in the streets of Alexandra Township, made up of over 20000 informal dwellings."
-    title: "Subject categories, Try 2"
-  - image_path: /assets/images/posts/covid-data-viz/military_covid.png
     alt: "Police in the streets of "
     title: "Subject categories, Try 2"
+    - image_path: /assets/images/posts/covid-data-viz/military_covid.png
+      alt: "Police in the streets of "
+      title: "Subject categories, Try 2"
 ---
 # Deaths in South Africa
 
