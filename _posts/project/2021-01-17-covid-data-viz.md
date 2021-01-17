@@ -42,7 +42,7 @@ My statistical analysis links up human mobility in South Africa to surges in inf
 ### Simple premise
 My hypothesis H0 is: there is no significant correlation between human movement and virus propagation in South Africa of such period.
 
-{% include gallery id="gallery" caption="Was the military presence worth it?" %}
+### Mobility data with Google location tracking over December 2020
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/4990512"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
@@ -59,7 +59,11 @@ This analysis is done on a national level, and seen the incubation time for the 
 
 <div class="flourish-embed flourish-scatter" data-src="visualisation/4990187"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-{% include gallery id="gallery" caption="Was the military presence worth it?" %}
+## 3. Biggest takeaways
+
+{% include gallery id="gallery2" caption="Was the military presence worth it?" %}
+
+Probably not. Will add more soon.
 
 # Bibliography
 
