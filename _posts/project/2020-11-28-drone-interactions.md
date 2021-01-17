@@ -37,3 +37,10 @@ It goes without saying that my tutorials present the structure of this platform 
 {% include gallery id="gallery2" layout="fourth" class="full" caption="" %}
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/4990512"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+
+<div class="flourish-embed flourish-scatter" data-src="visualisation/4990187"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+Datasets: WHO information was not sufficient, more SA info here:
+
+https://github.com/dsfsi/covid19za
