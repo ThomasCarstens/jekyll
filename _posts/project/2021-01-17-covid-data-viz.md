@@ -46,10 +46,10 @@ My hypothesis H0 is: there is no significant correlation between human movement 
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/4990512"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-## The virus incubation time
+## 2. incubation time
 This analysis is done on a national level, and seen the incubation time for the virus is roughly 10 days, the15 days prior to infection are examined for significant levels of human movement. Said otherwise, for each significant level of infection, we determine how often over 15 days the movement exceeded set bounds (in number of days). This information will be analysed in a final Poisson curve to determine if the spikes are in fact correlated or they are two random patterns.
 
-## A more significant approach
+### A more significant approach
 <strong># TEMPORARY</strong>
 - Covid infections are analysed according to the gradient in the number of infections as a rough measure of infectability. Significant levels of infection are those that cross a certain threshold in gradient.
 
@@ -61,7 +61,7 @@ This analysis is done on a national level, and seen the incubation time for the 
 
 {% include gallery id="gallery" caption="Was the military presence worth it?" %}
 
-#Bibliography
+# Bibliography
 
 Datasets: WHO information was not sufficient, more SA info here:
 https://github.com/dsfsi/covid19za
