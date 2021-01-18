@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "COVID in South Africa"
+title: "Data visualizations for COVID in South Africa"
 excerpt: "Handin for the DVIC Data Visualisation Course, Dec '20."
 header:
   teaser: /assets/images/posts/covid-data-viz/police.jpg
