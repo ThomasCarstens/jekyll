@@ -25,7 +25,7 @@ gallery2:
   - image_path: /assets/images/posts/covid-data-viz/police.jpg
     alt: "Police in the streets of Alexandra Township, made up of over 20000 informal dwellings."
     title: "Subject categories, Try 2"
-  - image_path: /assets/images/posts/covid-data-viz/military_covid.png
+  - image_path: /assets/images/posts/covid-data-viz/military_covid.jpg
     alt: "Police in the streets of "
     title: "Subject categories, Try 2"
 ---
@@ -39,12 +39,15 @@ My statistical analysis links up human mobility in South Africa to surges in inf
 
 {% include gallery id="gallery" caption="Adapted from the Coronavirus COVID-19 (2019-nCoV) Data Repository and Dashboard for South Africa (1)" %}
 
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/5007788"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 ### Simple premise
 My hypothesis H0 is: there is no significant correlation between human movement and virus propagation in South Africa of such period.
 
 ### Mobility data with Google location tracking over December 2020
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/4990512"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/5007715"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## 2. incubation time
 This analysis is done on a national level, and seen the incubation time for the virus is roughly 10 days, the15 days prior to infection are examined for significant levels of human movement. Said otherwise, for each significant level of infection, we determine how often over 15 days the movement exceeded set bounds (in number of days). This information will be analysed in a final Poisson curve to determine if the spikes are in fact correlated or they are two random patterns.
@@ -61,7 +64,7 @@ This analysis is done on a national level, and seen the incubation time for the 
 
 ## 3. Biggest takeaways
 
-{% include gallery id="gallery2" caption="Was the military presence worth it?" %}
+{% include gallery id="gallery2" caption="Was it worth bringing the police and the army into townships?" %}
 
 Probably not. Will add more soon.
 

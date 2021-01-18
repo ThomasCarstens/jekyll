@@ -8,8 +8,7 @@ header:
 
 categories: Project
 
-tags:
-- Data visualisation
+tags:- Data visualisation
 
 tags:
 toc: true
