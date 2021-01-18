@@ -37,38 +37,37 @@ My statistical analysis links up human mobility in South Africa to surges in inf
 
 ### Deaths in South Africa due to Covid-19 over December 2020
 
-{% include gallery id="gallery" caption="Adapted from the Coronavirus COVID-19 (2019-nCoV) Data Repository and Dashboard for South Africa (1)" %}
+<div class="flourish-embed flourish-scatter" data-src="visualisation/4990187"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
+<em> Adapted from the Coronavirus COVID-19 (2019-nCoV) Data Repository and Dashboard for South Africa (1) </em>
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/5007788"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ### Simple premise
 My hypothesis H0 is: there is no significant correlation between human movement and virus propagation in South Africa of such period.
 
 ### Mobility data with Google location tracking over December 2020
+Fortunately, Google supplies location-tracking data. As long as we consider this data to be representative of greater human mobility, we can try to see the story behind the data.
+
+Here we look at how people moved between their workplace and residential areas. I chose this data because it brings out trends in human movement.
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/5007715"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-## 2. incubation time
-This analysis is done on a national level, and seen the incubation time for the virus is roughly 10 days, the15 days prior to infection are examined for significant levels of human movement. Said otherwise, for each significant level of infection, we determine how often over 15 days the movement exceeded set bounds (in number of days). This information will be analysed in a final Poisson curve to determine if the spikes are in fact correlated or they are two random patterns.
+Interesting spikes of movement occurring around the 19th of December and the 26th of December. Perhaps when most people are travelling to see family and then to leave?
 
-### A more significant approach
-<strong># TEMPORARY</strong>
-- Covid infections are analysed according to the gradient in the number of infections as a rough measure of infectability. Significant levels of infection are those that cross a certain threshold in gradient.
+Let's get back to the question. Is there any evidence that human movement affects infection rates? Perhaps we could juxtapose these for any trends.
 
-- The nature of our location-tracking data is percentage according to a baseline. Therefore significant levels of movement could roughly be determined if it exceeds set bounds on a normal curve according to data available for South Africa.  
+<div class="flourish-embed flourish-chart" data-src="visualisation/5007788"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-<strong># TEMPORARY</strong>
+This data is interesting because the changes from the baseline are considerable (from 50 percent to -50 percent of the baseline). It's interesting how parks become more trendy, and... so does the virus.
 
-<div class="flourish-embed flourish-scatter" data-src="visualisation/4990187"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
+Seen the incubation time for the virus is roughly 10 days, the 15 days prior to infection should be better examined for significant levels of human movement. This graph shows no evidence of a correlation.
+ 
 ## 3. Biggest takeaways
 
 {% include gallery id="gallery2" caption="Was it worth bringing the police and the army into townships?" %}
 
-Probably not. Will add more soon.
+Unfortunately this analysis was not sufficient. This analysis is done on a national level, and seen the incubation time for the virus is roughly 10 days, the 15 days prior to infection should be better examined for significant levels of human movement.
 
 # Bibliography
 
-Datasets: WHO information was not sufficient, more SA info here:
-https://github.com/dsfsi/covid19za
+(1) the Coronavirus COVID-19 (2019-nCoV) Data Repository and Dashboard for South Africa, https://github.com/dsfsi/covid19za
