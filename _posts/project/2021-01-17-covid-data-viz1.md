@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "test"
+title: "Data visualizations for COVID in South Africa"
 excerpt: "Handin for the DVIC Data Visualisation Course, Dec '20."
 header:
   teaser: /assets/images/posts/covid-data-viz/police.jpg
@@ -41,7 +41,6 @@ My statistical analysis links up human mobility in South Africa to surges in inf
 
 <em> Adapted from the Coronavirus COVID-19 (2019-nCoV) Data Repository and Dashboard for South Africa (1) </em>
 
-
 ### Simple premise
 My hypothesis H0 is: there is no significant correlation between human movement and virus propagation in South Africa of such period.
 
@@ -61,12 +60,12 @@ Let's get back to the question. Is there any evidence that human movement affect
 This data is interesting because the changes from the baseline are considerable (from 50 percent to -50 percent of the baseline). It's interesting how parks become more trendy, and... so does the virus.
 
 Seen the incubation time for the virus is roughly 10 days, the 15 days prior to infection should be better examined for significant levels of human movement. This graph shows no evidence of a correlation.
- 
+
 ## 3. Biggest takeaways
 
 {% include gallery id="gallery2" caption="Was it worth bringing the police and the army into townships?" %}
 
-Unfortunately this analysis was not sufficient. This analysis is done on a national level, and seen the incubation time for the virus is roughly 10 days, the 15 days prior to infection should be better examined for significant levels of human movement.
+Unfortunately this analysis did not reveal a correlation between significant human movement and the spread of the virus. This analysis is done on a national level, and seen the incubation time for the virus is roughly 10 days, the 15 days prior to infection should be better examined for significant levels of human movement.
 
 # Bibliography
 
