@@ -73,6 +73,7 @@ After using the drones’ Python API for trajectory execution, it was then used 
 https://www.youtube.com/watch?v=tdrO143g21E&feature=emb_logo&ab_channel=ThomasCarstens
 
 This is fascinating during drone performances. While exploring the drone swarming API, we realised that it had been developed for testing flight algorithms, but it did not have any functionality for drones to fly together in a fully autonomous fashion. This is when we decided to build a framework ourselves for Crazyflie drones to become autonomous (a framework we then shared with the Crazyflie community at large).
+
 At the point of writing (3 February 2020), this framework is not fully complete, but we have built in several functionalities already: see the Collective intelligence for drone swarms project. By expanding a rapidly growing swarming framework, this work has contributed to the HCI and drone research community at large.
 
 
