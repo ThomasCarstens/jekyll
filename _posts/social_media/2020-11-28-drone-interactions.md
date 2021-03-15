@@ -5,7 +5,7 @@ excerpt: "My work in drone development at the DVIC."
 header:
   teaser: /assets/images/backgrounds/university-avenue.png
   overlay_image: /assets/images/backgrounds/university-avenue.png
-categories: Project
+#categories: Project
 tags:
 - Product design
 - Solidworks
