@@ -3,7 +3,7 @@ layout: archive
 permalink: /about/
 title: "About"
 header:
-  overlay_image: /assets/images/backgrounds/paris-skyline.jpg
+  overlay_image:   /assets/images/backgrounds/frontview.jpg
 #classes: wide
 
 last_modified_at: 2019-06-11T11:22:24-05:00
