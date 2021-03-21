@@ -7,9 +7,8 @@ header:
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
 categories: Project
 tags:
-- Product design
+- Electro-mechanical Product Design
 - Solidworks
-- Electro-mechanical
 toc: true
 toc_sticky: true
 date: 2017-12-02

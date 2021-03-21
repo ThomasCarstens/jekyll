@@ -10,13 +10,10 @@ header:
   overlay_image: /assets/images/posts/service-robot/robot-header.png
 categories: Project
 tags:
-- Design-and/or-development
-- Robot
-- Autonomous system
+- Autonomy stack
 - Solidworks
 - Lasercutting
-- C++
-- STM32
+- Embedded C on an STM32
 toc: true
 toc_sticky: true
 date: 2019-01-12
