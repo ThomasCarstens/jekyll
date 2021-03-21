@@ -10,11 +10,10 @@ header:
 categories: Project
 
 tags:
-- Autonomy stack
+- Autonomy stack for robotics
 - Python
-- Robotics
 - Motion capture
-- Trajectory planning
+- Trajectory planning algorithms
 
 toc: true
 toc_sticky: true

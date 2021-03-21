@@ -13,9 +13,8 @@ toc_sticky: true
 date: 2019-05-31
 
 tags:
-- ROS
+- ROS library
 - Python
-- Drone development
 - Motion capture
 - Swarm robotics
 

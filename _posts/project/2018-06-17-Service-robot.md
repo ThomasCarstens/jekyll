@@ -10,9 +10,8 @@ header:
   overlay_image: /assets/images/posts/service-robot/robot-header.png
 categories: Project
 tags:
-- Autonomy stack
-- Solidworks
-- Lasercutting
+- Autonomy stack for robotics
+- 3D modeling on Solidworks
 - Embedded C on an STM32
 toc: true
 toc_sticky: true

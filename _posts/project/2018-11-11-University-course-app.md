@@ -9,7 +9,7 @@ header:
 categories: Project
 tags:
 - Mobile app development
-- Ionic-Angular
+- Ionic-Angular platform
 - Firebase
 toc: true
 toc_sticky: true
