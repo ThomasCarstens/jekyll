@@ -11,6 +11,14 @@ categories: Project
 toc: true
 toc_sticky: true
 date: 2019-05-31
+
+tags:
+- ROS
+- Python
+- Unity3D
+- Motion capture
+- Hardware-in-the-loop robotics
+
 gallery:
   - image_path: assets/images/posts/virtual-training/DDA.png
     alt: "App pic 4"

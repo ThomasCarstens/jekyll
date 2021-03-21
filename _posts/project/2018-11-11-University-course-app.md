@@ -8,13 +8,9 @@ header:
   overlay_image: assets/images/posts/app-for-education/framework.png
 categories: Project
 tags:
-- Design-and/or-development
-- Mobile app
-- Ionic
-- Angular
+- Mobile app development
+- Ionic-Angular
 - Firebase
-- Android app
-- Ios app
 toc: true
 toc_sticky: true
 date: 2018-11-11

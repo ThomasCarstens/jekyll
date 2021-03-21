@@ -12,6 +12,12 @@ toc: true
 toc_sticky: true
 date: 2019-05-31
 
+tags:
+- ROS
+- Python
+- Drone development
+- Motion capture
+- Swarm robotics
 
 document_path1: /assets/docs/Internship_DVIC_report_2020.pdf
 ---

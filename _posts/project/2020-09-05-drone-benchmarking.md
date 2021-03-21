@@ -8,6 +8,14 @@ header:
   teaser: assets/images/posts/drone-benchmarking/wide-gates.jpg
   overlay_image: assets/images/posts/drone-benchmarking/wide-gates.jpg
 categories: Project
+
+tags:
+- Autonomy stack
+- Python
+- Robotics
+- Motion capture
+- Trajectory planning
+
 toc: true
 toc_sticky: true
 date: 2019-05-31
@@ -17,12 +25,12 @@ document_path1: /assets/docs/Internship_DVIC_report_2020.pdf
 ---
 
 #Benchmarking drone flight
-As part of the development of the robotics cluster of the De Vinci Innovation Center, the intern must set up a standardized platform for developing swarm robotics. This platform will be put into service to future employees from the start of the September 2020 school year. The priority is on system security and the writing of tutorials at different levels.
+As part of the development of the robotics cluster of the De Vinci Innovation Center, I was required set up a standardized platform for developing swarm robotics. I interned at the DVIC for 6 months, and this platform was put into service to future employees from the start of the September 2020 school year. The priority is on system security and the writing of tutorials at different levels.
 
 ###robotics, autonomous drones, control setup
 ###agility, aggressive manoeuvres research, crazyflies, optitrack
 ###building blocks, trajectory generation, trajectory following
-Thomas Carstens and Adem Rahal, December 2020
+Thomas Carstens, September 2020
 
 ## Context
 This project is the longest running project in the DVIC Drone Lab. The original aim of this project was to develop a drone for the AlphaPilot autonomous drone race (1). This was a one-of-a-kind drone race in San Francisco, where teams battled autonomy algorithms on real drones. With a million dollar prize sponsored by Lockheed Martin, this race illustrates a nascent trend in the drone industry: to develop drones agile enough to race, and perhaps one day as agile as first-person-view (FPV) piloted drones. Any improvement to the drone’s agility would have an impact: to optimise fuel usage and flight times, but also, to help the drone be more agile during key split-second decisions.
