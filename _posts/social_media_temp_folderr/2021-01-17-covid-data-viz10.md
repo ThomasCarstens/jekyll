@@ -6,7 +6,7 @@ header:
   teaser: /assets/images/posts/covid-data-viz/police.jpg
   overlay_image: /assets/images/posts/covid-data-viz/police.jpg
 
-categories: Project
+#categories: Project
 
 tags:
 - Data visualisation
