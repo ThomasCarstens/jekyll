@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Achieving more reliable drone choreographies"
-excerpt: "We set up the control PC to monitor drone flight safely."
+title: "A virtual training ground for autonomous drones"
+excerpt: "Our custom hardware-in-the-loop setup for simulation testing."
 
 header.image: assets/images/posts/dvic_internship/internship.PNG
 header:
