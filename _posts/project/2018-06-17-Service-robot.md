@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Service Robot"
+title: "Developing a line-follower robot"
 excerpt: "A low-cost mobile robot to deliver medication, keys and other small items."
 image:
   header: assets/images/posts/service-robot/robot-header.png

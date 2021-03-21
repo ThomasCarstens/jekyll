@@ -4,15 +4,18 @@ main:
     url: /about/
   #- title: "...Categories..."
   #  url: /categories/
-  - title: "Contact"
-    url: /contact/
-  - title: "Blog"
-    url: /myblog/
+
   - title: "Portfolio"
     url: /cv/
+
+  - title: "Contact"
+    url: /contact/
+  #- title: "Blog"
+  #  url: /myblog/
+
   #- title: "Skills"
   #  url: /skills/
-  - title: "Twitter"
-    url: /projects/
-  - title: "Privacy Policy"
-    url: /terms/
+  #- title: "Twitter"
+  #  url: /projects/
+  #- title: "Privacy Policy"
+  #  url: /terms/

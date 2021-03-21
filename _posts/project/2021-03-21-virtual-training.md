@@ -3,30 +3,23 @@ layout: single
 title: "A virtual training ground for autonomous drones"
 excerpt: "Our custom hardware-in-the-loop setup for simulation testing."
 
-header.image: assets/images/posts/dvic_internship/internship.PNG
+header.image: assets/images/posts/virtual-training/FG-topview.jpg
 header:
-  teaser: assets/images/posts/dvic_internship/internship.PNG
-  overlay_image: assets/images/posts/dvic_internship/internship.PNG
+  teaser: assets/images/posts/virtual-training/FG-topview.jpg
+  overlay_image: assets/images/posts/virtual-training/FG-topview.jpg
 categories: Project
 toc: true
 toc_sticky: true
 date: 2019-05-31
 gallery:
-  - image_path: /assets/images/posts/ball-launcher/ballselector.jpg
+  - image_path: assets/images/posts/virtual-training/DDA.png
     alt: "App pic 4"
     title: "Some snapshots"
-  - image_path: /assets/images/posts/ball-launcher/turntable.jpg
+  - image_path: assets/images/posts/virtual-training/robotic-platform.jpg
     alt: "App pic 3"
     title: "Some snapshots"
-  - image_path: /assets/images/posts/ball-launcher/shooter.jpg
+  - image_path: assets/images/posts/virtual-training/skirt.gif
     alt: "App pic 3"
-    title: "Some snapshots"
-gallery2:
-  - image_path: /assets/images/posts/ball-launcher/frontshooter.jpg
-    alt: "App pic 5"
-    title: "Some snapshots"
-  - image_path: /assets/images/posts/ball-launcher/base.jpg
-    alt: "App pic 6"
     title: "Some snapshots"
 
 
@@ -37,9 +30,9 @@ document_path1: /assets/docs/Internship_DVIC_report_2020.pdf
 
 What is the single element that all visions of the future since the Renaissance share? Flight. Whether it be bird wings, hot air balloons or flying cars, mankind has dreamt of flying for a long time. But now that airplanes and helicopters are a reality, is flight not a goal of technological evolution anymore? Or is it that we simply went from making man fly, to making something else fly in its stead, or alongside him. Drones are that extension of humanity, free to roam the air to recover data or visuals, to transfer loads, be used as a point in 3D space or to perform a task, in many imaginable ways.
 
-### robotics, drone development, autonomous drones, control setup
-### choose-your-environment, mixed reality, virtual drones, virtual collisions
-#### reinforcement learning, hardware-in-the-loop, research laboratory
+### \#robotics, drone development, autonomous drones, control setup
+### \#choose-your-environment, mixed reality, virtual drones, virtual collisions
+### \#reinforcement learning, hardware-in-the-loop, research laboratory
 Thomas Carstens and Matteo Frossard, December 2020
 
 ## The progress of such technologies today

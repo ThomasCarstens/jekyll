@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "Braai tongs Product Design"
-excerpt: "These braai tongs were designed to have LED illumination but also compete with tongs currently on the market."
+title: "Mechanical Design of futuristic barbecue tongs"
+excerpt: "These tongs emit light so that you can see how cooked your food is."
 header:
   teaser: ../assets/images/posts/braai-tongs/tongs-header.jpg
   overlay_image: assets/images/posts/braai-tongs/detail-open.jpg
-#categories: Project
+categories: Project
 tags:
 - Product design
 - Solidworks

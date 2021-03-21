@@ -1,11 +1,11 @@
 ---
 layout: single
-title: "Milk frother Product Design"
+title: "Mechanical Design of a Milk Frother"
 excerpt: "Individual project to design a domestic handheld product."
 header:
   teaser: /assets/images/backgrounds/university-avenue.png
   overlay_image: /assets/images/backgrounds/university-avenue.png
-categories: Project
+#categories: Project
 tags:
 - Product design
 - Solidworks
