@@ -87,7 +87,7 @@ analytics:
 # Site Author
 author:
   name             : *name
-  avatar           : "/assets/images/profilepicture.jpeg"
+  avatar           : "/assets/images/theprofilepicture.jpeg"
   bio              : "Interested in embodied intelligence"
   location         : #"Based in Paris"
   email            : #"thomaxarstens@gmail.com"
