@@ -11,4 +11,5 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "tzinfo" 
   gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw]
+  gem "jekyll-scholar", group: :jekyll_plugins
 end

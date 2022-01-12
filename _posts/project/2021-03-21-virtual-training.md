@@ -36,6 +36,10 @@ document_path1: /assets/docs/Internship_DVIC_report_2020.pdf
 
 ## Drones, flight, and autonomous agents
 
+{% include paper/testbed.html %}
+
+{% bibliography --cited %}
+
 What is the single element that all visions of the future since the Renaissance share? Flight. Whether it be bird wings, hot air balloons or flying cars, mankind has dreamt of flying for a long time. But now that airplanes and helicopters are a reality, is flight not a goal of technological evolution anymore? Or is it that we simply went from making man fly, to making something else fly in its stead, or alongside him. Drones are that extension of humanity, free to roam the air to recover data or visuals, to transfer loads, be used as a point in 3D space or to perform a task, in many imaginable ways.
 
 ### \#robotics, drone development, autonomous drones, control setup

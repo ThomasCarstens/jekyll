@@ -1,0 +1,143 @@
+\chapter{Conclusion}
+%\textbf{~5 pages}
+
+%This concludes a work of 2 years on UAVs.
+
+\section*{Chapter \ref{c1}: \nameref{c1}}
+
+\begin{table*}[h]
+  \footnotesize%
+  \begin{flushleft}
+
+    \begin{tabular}{lccl}
+      \toprule
+      Test Description & Value  \\
+      \midrule
+  Volume of Flight Arena Localized by Motion Capture                     &  \Paste{flight_arena_localized} \\
+      Maximum Flight Error Recorded in Hover Test                     &  \Paste{sample_hover_error} \\
+      \bottomrule
+    \end{tabular}
+  \end{flushleft}
+
+  \caption{Key findings in Chapter \ref{c1}.}
+  \label{tab:ch1_findings_conclusion}
+\end{table*}
+
+% {c1_contents}
+We document the design of a development and demonstration testbed conform to existing research. We describe a procedural task-based architecture to complement an existing swarm stack. We demonstrate that the runtime environment is capable of coordinating multiple robots. A custom high level interface wraps the testbed towards more complex tasks, and it is demonstrated in a multi-drone choreography.
+
+% {stability_test_evaluation_conclusion}
+Drone 2 is further from the arena and exhibits more stability. The drone that is furthest from the antenna does not have more pose error, and the hypothesis is rejected.
+
+% {high_level_interface_demonstration_conclusion}
+The drone choreography has shown a functional workspace for multi-robot groups, whereas a predictable, controllable group of drones with well-defined goals executed tasks. This culmination of swarm and task interfaces the infrastructure for new technologies and for prototyping functionalities. Similarly to other drone laboratories \cite{fma_paper}\cite{pradalier_2020} and experimental spaces\cite{experimental_tuning}, we've put in place a smart ecosystem for multi-robot development.
+
+% {c1_conclusion}
+The development of a testbed, and all its associated functionality, reveals the complexity of robotic development. Just as robots demand attention to detail, so do the frameworks that surround them. As UAV research continues to grow, so do the number of applications. Flight Testbeds are quickly becoming a vital element of the drone development process. A framework for multi-robot task execution is a stepping stone to more complex tasks. It may be expanded to other models of robots, groundbased or airborne.
+
+\section*{Chapter \ref{c2}: \nameref{c2}}
+
+\begin{table*}[h]
+  %\raggedright
+  \footnotesize%
+  \begin{flushleft}
+
+    \begin{tabular}{ll}
+      \toprule
+      Test Description & Result  \\
+      \midrule
+      \textbf{Gesture Piloting}&  \\
+      Gesture Recognition Effectiveness   &  \Paste{gesture_recognition_effectiveness} \\
+      System Response Time  &  \Paste{system_response_time}  \\
+      
+      \midrule
+      \textbf{Mixed Reality Interface}  &   \\
+      Latency of Pose Transmission   &  \Paste{latency_pose_transmission} \\
+      Latency of State Changes   &   \Paste{latency_collision_experiment} \\
+      System Latency   &  \Paste{latency_system_mr}\\
+      \bottomrule
+    \end{tabular}
+  \end{flushleft}
+
+  \caption{Key findings in Chapter \ref{c2}.}
+  \label{tab:ch2_findings_conclusion}
+\end{table*}
+
+
+% {c2_contents}
+We investigate a Mixed Reality Interface for the Testbed, as well as methods of drone Piloting using a Computer Vision algorithm. The utility of the framework is demonstrated by using it for two different tasks: quadrotor piloting using computer vision and collision-free flight of multiple UAVs. Building on existing frameworks like MediaPipe Hands, and Unity3D, we create perception pipelines for semi-autonomous flight, and we proceed to evaluate the response latency of these pipelines.
+
+% {gesture_recognition_evaluation_conclusion}
+The gesture interface used to pilot the drones is given 56\% accuracy. While the pipeline is based on MediaPipe Hands, the pose classification was hardcoded, and the software can then be improved with a neural classifier or an ML pipeline. In practice, the errors were filtered out by the drone control pipeline. 
+
+% {mixed_reality_evaluation1_conclusion}
+We have developed a Mixed Reality pipeline that transmits real objects into a simulator and game engine. While this approach is accurate and shows high image fidelity, the pose transmission suffers from a linear \Paste{latency_pose_transmission} delay. Further work might be able to detect the root cause of this issue.
+
+% {mixed_reality_evaluation2_conclusion}
+While the Mixed Reality Interface provides us with a simulated graphics engine, a communication channel was put in place that would communicate virtual events to the robot swarm. However, the collision experiment has demonstrated a cumulative delay of \Paste{latency_collision_experiment}  for a single quadrotor, and this can only increase with larger swarms and more complex manoeuvres. Since latency is a primary measure for image streaming and high performance drone tasks, we suggest the exploration of a network interface more focused on performance, and possibly the integration of existing simulators like Flightmare within the testbed.
+
+% {c2_conclusion}
+With Human-Drone Interfaces, a new reality is offered to us: one where drones and humans meet, where drones can somewhat become extensions of our human selves. These experimentations have been a taster of what is possible, as laying down the framework is a first step towards a better world. The concept of human extension is fascinating, for it suggests that the extension is an addition: in that way, a drone assumes the role of a habilitating tech.
+
+\section*{Chapter \ref{c3}: \nameref{c3}}
+
+\begin{table*}[h]
+  %\raggedright
+  \footnotesize%
+  \begin{flushleft}
+
+    \begin{tabular}{ll}
+      \toprule
+      Test Description & Findings  \\
+      \midrule
+      \textbf{\nameref{section:environment}}  &   \\
+      DHT11 \Paste{sensor_rate_second}   &  \Paste{DHT11_rate_second} \\
+      DHT11 \Paste{sensor_rate_meter}  &  \Paste{DHT11_rate_meter} \\
+      LDR \Paste{sensor_rate_second}    &   \Paste{LDR_rate_second} \\
+      LDR \Paste{sensor_rate_meter}  & \Paste{LDR_rate_meter} \\
+      \midrule
+      \textbf{\nameref{section:vibrations}}  &   \\
+      Range of Vibration Sensing System  &  0-\Paste{probe_peak_frequency} \\
+      Margin of Error up to Natural Frequency  & \Paste{probe_peak_error} \\
+      \bottomrule
+    \end{tabular}
+  \end{flushleft}
+
+  \caption{Key findings in Chapter \ref{c3}.}
+  \label{tab:ch3_findings_conclusion}
+\end{table*}
+
+
+% {c3_contents}
+Applications are explored for UAVs as Mobile Sensing Platforms, with high-sampling and high-precision equipment. We design a carrier drone and Onboard Data Acquisition systems and we put them to practice along standards defined by industrial practitioners. Two payloads are tested in outdoor flight, for atmospheric data and vibration data, and we characterise the sensors used for these tests. A vibration probe is designed and our tests demonstrate its relevance in the field of mobile sensing.
+
+% {vibration_test_evaluation_conclusion}
+Through the means of a payload damping test, the hypothesis is rejected, insofar as more shock absorption material did not give a lower gain in the frequency response. Since the objective of this test is about maximising the damping in the range of interest, Payload A is installed onto the drone. We suggest that that this test be carried out over a wider range of materials, and for other types of flight, in order to determine an optimal damping volume for different drone designs.
+
+% {field_scan_evaluation_conclusion}
+The luminosity plot demonstrates very precise readings despite the drone's velocity. This is facilitated by rapid data logging at 100Hz. The fact that the drone was piloted by hand, on an arbitrary path with region overlaps, illustrates plainly how mobile mapping is a worthwhile tool for rapid data collection.
+
+% {footstep_detection_conclusion}
+The footstep detection tests demonstrate that the drone can indeed record data with similar quality as that of a planted geophone.  This finding is significant because it demonstrates that an activity like vibration monitoring is not confined to a manual exercise by practitioners. A drone can gather data remotely. At the time of writing, Alliantech is compiling a marketing video for this vibration sensing solution.
+
+% {mount_sensitivity_evaluation_conclusion}
+We have characterised a drone vibration monitoring solution and we confirm that our drone can monitor sources of activity on a 1kHz range with no substantial losses in sensitivity. This finding is significant because it demonstrates that the drone’s vibration mount is comparable to professional vibration monitoring methods, and the UAV can therefore be used as an alternative for structural inspections.
+
+% {c3_conclusion}
+An industrial perspective has revealed the opportunities for drones in sensor networks: carrying sensors, placing and retrieving sensors, and overall assisting in the data collection process. This instrumentation perspective has proven to be full of potential: one flight test fuses sensor data without much issue, and in another, a vibration probe has shown its efficacity. This UAV can now be one tool in a toolkit for a company wishing to take measurements of a zone or to simplify a logistical operation.
+
+\section*{Perspectives}
+
+% {final_conclusion}
+UAVs have shown to be a rapidly expanding market : with new applications found every day, UAVs are the center of a range of research, scientific and industrial fields.
+ 
+Human-Drone Interfaces are still under development: The state of the art of HDI includes many modalities of interaction, and seeking new and more intuitive ways of interfacing with drones. 
+
+Finally, remote sensing and structural inspections are benefiting from the low-cost, time-cutting solutions that come with mobile sensing. In this paper, we have identified several new approaches to conventional tasks.
+
+    
+\printbibliography\label{c4}
+ 
+% \textbf{Currently contains \the\numexpr\getpagerefnumber{c4}-\getpagerefnumber{c1}\relax  pages | Calculated dynamically.}
+
+%https://app.diagrams.net/?src=about#G1DIYmvhBEI4IwsJYT0qD3u4i2XY6NtV5j
