@@ -13,7 +13,7 @@
 github: [metadata]
 #theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "aqua" #default: contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #default: contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 logo                     : #"/assets/images/favicon.jpg" #logo: "/assets/images/88x88.png"
 # Site Settings
 locale                   : "en-US"
@@ -79,18 +79,18 @@ social:
 
 # Analytics
 analytics:
-  provider               : false #"google" # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : #<F6>"UA-116077245-1"
+    tracking_id          : "G-JXW6H528P6"
 
 
 # Site Author
 author:
   name             : *name
-  avatar           : "/assets/images/theprofilepicture.jpeg"
-  bio              : "Interested in embodied intelligence"
+  avatar           : "/assets/images/profilepicture.jpg"
+  bio              : ""
   location         : #"Based in Paris"
-  email            : #"thomaxarstens@gmail.com"
+  email            : "thomas.carstens@edu.devinci.fr"
   uri              : #"https://thomascarstens.github.io"
 #  home             : "thomascarstens.github.io"
   bitbucket        :
