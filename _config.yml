@@ -81,7 +81,7 @@ social:
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "G-JXW6H528P6"
+    tracking_id          : <F6>"G-JXW6H528P6"
 
 
 # Site Author
