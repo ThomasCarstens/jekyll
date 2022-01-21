@@ -21,4 +21,9 @@ thomas.carstens@edu.devinci.fr
 Last updated: January 2022.
 <iframe src="{{ page.document_path1 }}" width="100%" height="1000px"></iframe>
 
-<div class="sketchfab-embed-wrapper"> <iframe title="Crazyflie placed on table." frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/50fdcf6c8b4548608b032ea854e6720c/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/crazyflie-placed-on-table-50fdcf6c8b4548608b032ea854e6720c?utm_medium=embed&utm_campaign=share-popup&utm_content=50fdcf6c8b4548608b032ea854e6720c" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Crazyflie placed on table. </a> by <a href="https://sketchfab.com/Thomas.Carstens?utm_medium=embed&utm_campaign=share-popup&utm_content=50fdcf6c8b4548608b032ea854e6720c" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Thomas.Carstens </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=50fdcf6c8b4548608b032ea854e6720c" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+<div class="sketchfab-embed-wrapper"> 
+
+<iframe title="Crazyflie placed on table." frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/50fdcf6c8b4548608b032ea854e6720c/embed"> </iframe> 
+
+<iframe title="Pixhawk in office environment" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/e6831001455e47cea0b9ae89e53603f2/embed"> </iframe> 
+</div>
