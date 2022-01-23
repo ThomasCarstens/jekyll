@@ -32,20 +32,20 @@ document_path1: /assets/docs/Internship_DVIC_report_2020.pdf
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Criteria</td>
-<td style="text-align: center;">Snapdragon</td>
-<td style="text-align: center;">Bitcraze</td>
-<td style="text-align: center;">Tello</td>
-<td style="text-align: center;">Custom Flight</td>
+<td style="text-align: center;">Snapdragon Flight Pro</td>
+<td style="text-align: center;">Bitcraze Crazyflie</td>
+<td style="text-align: center;">Tello Drone</td>
+<td style="text-align: center;">Custom Flight Controller</td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<!-- <tr class="even">
 <td style="text-align: left;"></td>
 <td style="text-align: center;">Flight Pro</td>
 <td style="text-align: center;">Crazyflie</td>
 <td style="text-align: center;">Drone</td>
 <td style="text-align: center;">Controller</td>
 <td style="text-align: left;"></td>
-</tr>
+</tr> -->
 <tr class="odd">
 <td style="text-align: left;">Dimensions</td>
 <td style="text-align: center;">&#9678; &#9673; &#9673; &#9673; &#9673;</td>
