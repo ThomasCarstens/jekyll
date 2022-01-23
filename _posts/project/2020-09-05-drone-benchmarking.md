@@ -23,6 +23,8 @@ date: 2019-05-31
 document_path1: /assets/docs/Internship_DVIC_report_2020.pdf
 ---
 
+{% include analytics.html %}
+
 <h2 id="section:hardware">Hardware Environment</h2>
 <h3 id="drone-selection-process">Drone Selection Process</h3>
 <p>Several drones were compared using custom criteria for drone development. These custom criteria are based on ease of use and programmability. The Dimensions criterion aims to minimize the drone size and weight. The Reconfigurable criterion investigates the modularity of the hardware layout. The Programmable criterion looks at the available interfaces for communicating with the firmware. The Autonomous Flight criterion looks at the compatibility of state estimation and trajectory planning algorithms.</p>
