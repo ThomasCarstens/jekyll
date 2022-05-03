@@ -23,7 +23,6 @@ date: 2019-05-31
 document_path1: /assets/docs/Internship_DVIC_report_2020.pdf
 ---
 
-{% include analytics.html %}
 
 <h2 id="section:hardware">Hardware Environment</h2>
 <h3 id="drone-selection-process">Drone Selection Process</h3>

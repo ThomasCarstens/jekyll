@@ -12,14 +12,32 @@ toc: false
 document_path1: /assets/docs/Thomas_Carstens_CV_2022.pdf
 ---
 
-The best way to contact me is by email. I will respond as soon as I can.
 
-thomas.carstens@edu.devinci.fr
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xknypeoo"
+  method="POST"
+>
+  <label>
+    You are welcome to leave a message. I will respond as soon as I can.
+  </label>
+
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
 <!-- <a class="twitter-timeline" href="https://twitter.com/thomaxarstens" data-tweet-limit="3">Loading my latest 3 tweets...</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-### Here's my CV 
+<!-- ### Here's my CV 
 Last updated: January 2022.
-<iframe src="{{ page.document_path1 }}" width="100%" height="1000px"></iframe>
+<iframe src="{{ page.document_path1 }}" width="100%" height="1000px"></iframe> -->
 
 <div class="sketchfab-embed-wrapper"> 
 

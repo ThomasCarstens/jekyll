@@ -1,15 +1,15 @@
 # main links
 main:
-  #- title: "About"
-  #  url: /about/
-  #- title: "...Categories..."
-  #  url: /categories/
-
-  - title: "Portfolio"
-    url: /cv/
+  - title: "About"
+    url: /about/
 
   - title: "Contact"
     url: /contact/
+  #- title: "...Categories..."
+  #  url: /categories/
+
+  #- title: "Portfolio"
+  #   url: /cv/
   #- title: "Blog"
   #  url: /myblog/
 
