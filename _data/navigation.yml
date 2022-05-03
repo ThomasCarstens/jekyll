@@ -5,11 +5,11 @@ main:
 
   - title: "Contact"
     url: /contact/
+
+  - title: "AI"
+    url: /aiworkspacetips/
   #- title: "...Categories..."
   #  url: /categories/
-  # - title: "AI tools for workspaces Tips and Technologies."
-  #   url: /aiworkspacetips/
-
   #- title: "Portfolio"
   #   url: /cv/
   #- title: "Blog"
