@@ -6,8 +6,8 @@ main:
   - title: "Contact"
     url: /contact/
 
-  - title: "AI"
-    url: /aiworkspacetips/
+  # - title: "AI"
+  #   url: /aiworkspacetips/
   #- title: "...Categories..."
   #  url: /categories/
   #- title: "Portfolio"
