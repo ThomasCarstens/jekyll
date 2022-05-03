@@ -7,6 +7,8 @@ main:
     url: /contact/
   #- title: "...Categories..."
   #  url: /categories/
+  # - title: "AI tools for workspaces Tips and Technologies."
+  #   url: /aiworkspacetips/
 
   #- title: "Portfolio"
   #   url: /cv/
