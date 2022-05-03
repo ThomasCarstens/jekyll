@@ -1,7 +1,7 @@
 ---
 permalink: /aiworkspacetips/
 title: "AI tools for workspaces Tips and Technologies."
-last_modified_at: 2022-05-04T12:42:38-04:00
+last_modified_at: 2022-05-03T12:42:38-04:00
 toc: true
 ---
 
