@@ -6,7 +6,7 @@ toc: true
 ---
 
 
-## About
+## Enter your email to gain access to the AI tools for workspaces Tips and Technologies Package.
 
 <!-- Other: xknypeoo
 App dev: xpzbondw
