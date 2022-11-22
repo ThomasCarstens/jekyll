@@ -19,7 +19,7 @@ src="http://www.youtube.com/embed/sAhurMHK9_c"
 frameborder="0" webkitAllowFullScreen mozallowfullscreen>
 </iframe>
 
-Do hype my channel, Empower Innovation: putting tips and tools in the hands of tech creators.
+Do see my channel, Empower Innovation: putting tips and tools in the hands of tech creators.
 <iframe width="424" height="238" src="https://www.youtube.com/embed/Mjv2iSUdqJs" 
 title="YouTube video player" frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
