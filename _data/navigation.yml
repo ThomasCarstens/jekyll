@@ -1,0 +1,23 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+
+  - title: "Contact"
+    url: /contact/
+
+  - title: "Resources"
+    url: /resources/
+  #- title: "...Categories..."
+  #  url: /categories/
+  #- title: "Portfolio"
+  #   url: /cv/
+  #- title: "Blog"
+  #  url: /myblog/
+
+  #- title: "Skills"
+  #  url: /skills/
+  #- title: "Twitter"
+  #  url: /projects/
+  #- title: "Privacy Policy"
+  #  url: /terms/
