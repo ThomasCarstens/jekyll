@@ -12,7 +12,7 @@ toc: false
 ---
 <h2>Welcome.</h2>
 
-Did the TED talk bring you here?
+Did the TED bring you here?
 
 <iframe
 src="http://www.youtube.com/embed/sAhurMHK9_c"
